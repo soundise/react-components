@@ -1,37 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 
 body {
-    margin: 0;
-    font-family: 'Inter', 'system-ui', 'sans-serif';
-    text-align: center;
-    color: #FFFFFF;
-    background: #000000;
+  margin: 0;
+  font-family: 'Inter', 'system-ui', 'sans-serif';
+  text-align: center;
+  color: #ffffff;
+  background: #000000;
 }
 
 .wrapper {
-    max-width: 48rem;
-    min-height: calc(100vh - 4rem);
-    padding: 2rem;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  max-width: 48rem;
+  min-height: calc(100vh - 4rem);
+  padding: 2rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .image {
-    width: 100%;
-    display: block;
+  width: 100%;
+  display: block;
 }
 
 .heading {
-    width: 100%;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid #26282E;
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
+  width: 100%;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #26282e;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .description {
-    margin: 0;
+  margin: 0;
 }
