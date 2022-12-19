@@ -1,0 +1,50 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    assignees:
+      - "olekbaran"
+      - "imLinguin"
+    commit-message:
+      prefix: "chore(deps):"
+    labels:
+      - "dependencies"
+    open-pull-requests-limit: 30
+    reviewers:
+      - "olekbaran"
+      - "imLinguin"
+      
+  - package-ecosystem: "gitsubmodule"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    assignees:
+      - "olekbaran"
+      - "imLinguin"
+    commit-message:
+      prefix: "chore(deps):"
+    labels:
+      - "dependencies"
+    open-pull-requests-limit: 30
+    reviewers:
+      - "olekbaran"
+      - "imLinguin"
+      
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    assignees:
+      - "olekbaran"
+      - "imLinguin"
+    commit-message:
+      prefix: "chore(deps):"
+    labels:
+      - "dependencies"
+    open-pull-requests-limit: 30
+    reviewers:
+      - "olekbaran"
+      - "imLinguin"
+      
