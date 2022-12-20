@@ -1,16 +1,19 @@
 {
   "name": "@soundise/react-components",
   "version": "0.0.1",
-  "private": false,
   "license": "GPL-3.0-only",
   "description": "Soundise React component library",
-  "repository": {
-    "type": "Github",
-    "url": "https://github.com/soundise/react-components"
-  },
+  "homepage": "https://components.soundise.com",
   "author": {
     "name": "Soundise",
     "email": "soundise@soundise.com"
+  },
+  "bugs": {
+    "url": "https://github.com/soundise/react-components/issues/new/choose"
+  },
+  "repository": {
+    "type": "Github",
+    "url": "https://github.com/soundise/react-components"
   },
   "keywords": [
     "Soundise",
@@ -48,10 +51,10 @@
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "^8.0.2",
     "prettier": "^2.8.1",
     "typescript": "^4.9.3",
     "vite": "^4.0.0",
-    "vite-tsconfig-paths": "^4.0.3",
-    "husky": "^8.0.2"
+    "vite-tsconfig-paths": "^4.0.3"
   }
 }
