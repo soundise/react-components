@@ -20,6 +20,12 @@
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
     "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/no-empty-interface": [
+      "error",
+      {
+        "allowSingleExtends": true
+      }
+    ],
     "import/prefer-default-export": "off",
     "import/no-unresolved": "off",
     "import/extensions": "off",
@@ -27,7 +33,7 @@
     "jsx-a11y/anchor-is-valid": "off",
     "no-nested-ternary": "off",
     "no-unused-vars": "off",
-    "no-use-before-define": "warn",
+    "no-use-before-define": "off",
     "react/react-in-jsx-scope": "off",
     "react/jsx-props-no-spreading": "off",
     "react/function-component-definition": "off",
