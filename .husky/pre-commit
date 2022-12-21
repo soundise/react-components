@@ -27,5 +27,13 @@ yarn check-format ||
     false;
 )
 
+# Run tests
+yarn test ||
+(
+        echo '\n😭🧪 Tests failed.
+                Make the required changes to pass the tests, add changes and try to commit again.'
+        false;
+)
+
 # If everything passes... Now we can commit
 echo '\n✅✅ You win this time... I am committing this now.\n'

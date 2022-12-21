@@ -19,6 +19,7 @@ export const SoundiseIcon = ({
     height="64"
     viewBox="0 0 256 256"
     fill="none"
+    data-testid="soundise-icon"
     {...props}
   >
     <Path

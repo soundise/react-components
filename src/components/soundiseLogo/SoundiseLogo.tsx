@@ -19,6 +19,7 @@ export const SoundiseLogo = ({
     height="64"
     viewBox="0 0 809 256"
     fill="none"
+    data-testid="soundise-logo"
     {...props}
   >
     <Path
