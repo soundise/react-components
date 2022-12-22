@@ -34,11 +34,11 @@ export const SoundiseIcon = ({
 );
 
 const Path = styled.path<ISoundiseIconPathProps>`
-  fill: ${({ theme }) => theme.colors.neutral.white};
+  fill: ${({ theme }) => theme.typography.colors.primary};
 
   ${({ variant }) =>
     variant === 'secondary' &&
     css`
-      fill: ${({ theme }) => theme.colors.neutral.black};
+      fill: ${({ theme }) => theme.typography.colors.secondary};
     `}
 `;
