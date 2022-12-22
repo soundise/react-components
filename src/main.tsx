@@ -14,7 +14,7 @@ export const GlobalStyle = createGlobalStyle`
         margin: 0;
         font-family: 'Inter', 'system-ui', 'sans-serif';
         font-weight: 400;
-        color: ${({ theme }) => theme.colors.primary.main};
+        color: ${({ theme }) => theme.colors.neutral.white};
         text-decoration: none;
         scroll-behavior: smooth;
     }

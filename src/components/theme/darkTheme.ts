@@ -1,10 +1,10 @@
 import type { ITheme } from './theme';
-import { colors } from './colors';
+import * as colors from './colors';
 
 export const darkTheme: ITheme = {
   colors: {
-    background: colors.secondary.main,
-    foreground: colors.primary.main,
+    background: colors.neutral.black,
+    foreground: colors.neutral.white,
     ...colors,
   },
 };
