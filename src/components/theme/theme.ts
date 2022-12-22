@@ -1,4 +1,20 @@
 export interface ITheme {
+  typography: {
+    fonts: {
+      primary: string;
+      secondary: string;
+      fallback: string;
+    };
+    weights: {
+      light: number;
+      regular: number;
+      bold: number;
+    };
+    colors: {
+      primary: string;
+      secondary: string;
+    };
+  };
   colors: {
     background: string;
     foreground: string;

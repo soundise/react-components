@@ -37,9 +37,9 @@ const Heading = styled.h1`
   margin-top: 1.5rem;
   margin-bottom: 1rem;
   text-align: center;
-  font-weight: 700;
+  font-weight: ${({ theme }) => theme.typography.weights.bold};
 `;
 
 const Description = styled.p`
-  font-weight: 700;
+  font-weight: ${({ theme }) => theme.typography.weights.bold};
 `;

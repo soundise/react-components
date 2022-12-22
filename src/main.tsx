@@ -12,9 +12,12 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         border: 0;
         margin: 0;
-        font-family: 'Inter', 'system-ui', 'sans-serif';
-        font-weight: 400;
-        color: ${({ theme }) => theme.colors.neutral.white};
+        font-family: ${({ theme }) => theme.typography.fonts.primary}, ${({
+  theme,
+}) => theme.typography.fonts.secondary}, ${({ theme }) =>
+  theme.typography.fonts.fallback};
+        font-weight: ${({ theme }) => theme.typography.weights.regular};
+        color: ${({ theme }) => theme.typography.colors.primary};
         text-decoration: none;
         scroll-behavior: smooth;
     }
