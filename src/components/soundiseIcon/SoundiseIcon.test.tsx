@@ -11,5 +11,6 @@ describe('SoundiseIcon', () => {
 
     expect(soundiseIcon).toBeInTheDocument();
     expect(soundiseIcon.tagName).toBe('svg');
+    expect(soundiseIcon).toMatchSnapshot();
   });
 });

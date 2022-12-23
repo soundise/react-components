@@ -7,6 +7,8 @@ afterEach(cleanup);
 describe('App', () => {
   it('should render the App component', () => {
     const { container } = render(<App />);
+
     expect(container).toBeTruthy();
+    expect(container).toMatchSnapshot();
   });
 });
