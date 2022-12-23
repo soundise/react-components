@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, cleanup } from 'tests';
-import { SoundiseLogo } from 'components';
+import { SoundiseLogo } from './SoundiseLogo';
 
 afterEach(cleanup);
 

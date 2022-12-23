@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, cleanup } from 'tests';
-import { SoundiseIcon } from 'components';
+import { SoundiseIcon } from './SoundiseIcon';
 
 afterEach(cleanup);
 

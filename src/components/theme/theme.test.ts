@@ -1,5 +1,6 @@
 import { cleanup } from 'tests';
-import { darkTheme, lightTheme } from 'components';
+import { darkTheme } from './darkTheme';
+import { lightTheme } from './lightTheme';
 import * as typography from './typography';
 import * as colors from './colors';
 import { breakpoints } from './breakpoints';
