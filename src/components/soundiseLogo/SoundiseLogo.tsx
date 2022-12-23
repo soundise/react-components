@@ -38,11 +38,11 @@ export const SoundiseLogo = ({
 );
 
 const Path = styled.path<ISoundiseLogoPathProps>`
-  fill: ${({ theme }) => theme.typography.colors.primary};
+  fill: ${({ theme }) => theme.colors.textPrimary};
 
   ${({ variant }) =>
     variant === 'secondary' &&
     css`
-      fill: ${({ theme }) => theme.typography.colors.secondary};
+      fill: ${({ theme }) => theme.colors.textSecondary};
     `}
 `;

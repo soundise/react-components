@@ -10,14 +10,13 @@ export interface ITheme {
       regular: number;
       bold: number;
     };
-    colors: {
-      primary: string;
-      secondary: string;
-    };
   };
   colors: {
     background: string;
     foreground: string;
+    textPrimary: string;
+    textSecondary: string;
+    textTertiary: string;
     neutral: {
       white: string;
       black: string;

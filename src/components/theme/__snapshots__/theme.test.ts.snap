@@ -64,12 +64,11 @@ exports[`Theme snapshot 1`] = `
       "r800": "#661C17",
       "r900": "#330E0C",
     },
+    "textPrimary": "#FFFFFF",
+    "textSecondary": "#000000",
+    "textTertiary": "#8D71FF",
   },
   "typography": {
-    "colors": {
-      "primary": "#FFFFFF",
-      "secondary": "#000000",
-    },
     "fonts": {
       "fallback": "sans-serif",
       "primary": "Inter",
@@ -148,12 +147,11 @@ exports[`Theme snapshot 2`] = `
       "r800": "#661C17",
       "r900": "#330E0C",
     },
+    "textPrimary": "#000000",
+    "textSecondary": "#FFFFFF",
+    "textTertiary": "#8D71FF",
   },
   "typography": {
-    "colors": {
-      "primary": "#000000",
-      "secondary": "#FFFFFF",
-    },
     "fonts": {
       "fallback": "sans-serif",
       "primary": "Inter",

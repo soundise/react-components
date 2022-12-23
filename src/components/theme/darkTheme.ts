@@ -6,14 +6,13 @@ import { breakpoints } from './breakpoints';
 export const darkTheme: ITheme = {
   typography: {
     ...typography,
-    colors: {
-      primary: colors.neutral.white,
-      secondary: colors.neutral.black,
-    },
   },
   colors: {
     background: colors.neutral.black,
     foreground: colors.neutral.white,
+    textPrimary: colors.neutral.white,
+    textSecondary: colors.neutral.black,
+    textTertiary: colors.primary.pr500,
     ...colors,
   },
   breakpoints: {

@@ -13,7 +13,7 @@ export const GlobalStyle = createGlobalStyle`
 }) => theme.typography.fonts.secondary}, ${({ theme }) =>
   theme.typography.fonts.fallback};
     font-weight: ${({ theme }) => theme.typography.weights.regular};
-    color: ${({ theme }) => theme.typography.colors.primary};
+    color: ${({ theme }) => theme.colors.textPrimary};
     text-decoration: none;
     scroll-behavior: smooth;
     scrollbar-width: thin;
