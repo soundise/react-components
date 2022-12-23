@@ -3,5 +3,8 @@
 /yarn.lock
 /package-lock.json
 
+# tests
+/coverage
+
 # production
 /dist
