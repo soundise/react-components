@@ -1,6 +1,7 @@
 import React from 'react';
 import { render, cleanup } from 'tests';
 import { SoundiseLogo } from './SoundiseLogo';
+import { darkTheme } from '../theme';
 
 afterEach(cleanup);
 
@@ -12,5 +13,25 @@ describe('SoundiseLogo', () => {
     expect(soundiseLogo).toBeInTheDocument();
     expect(soundiseLogo.tagName).toBe('svg');
     expect(soundiseLogo).toMatchSnapshot();
+  });
+
+  it('should render primary Soundise logo', () => {
+    const { getAllByTestId } = render(<SoundiseLogo variant="primary" />);
+    const soundiseLogoPaths = getAllByTestId('soundise-logo-path');
+
+    soundiseLogoPaths.forEach((path) => {
+      expect(path).toHaveStyle(`fill: ${darkTheme.colors.textPrimary}`);
+    });
+    expect(soundiseLogoPaths).toMatchSnapshot();
+  });
+
+  it('should render secondary Soundise logo', () => {
+    const { getAllByTestId } = render(<SoundiseLogo variant="secondary" />);
+    const soundiseLogoPaths = getAllByTestId('soundise-logo-path');
+
+    soundiseLogoPaths.forEach((path) => {
+      expect(path).toHaveStyle(`fill: ${darkTheme.colors.textSecondary}`);
+    });
+    expect(soundiseLogoPaths).toMatchSnapshot();
   });
 });
