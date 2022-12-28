@@ -1,7 +1,7 @@
 import React, { ReactElement, ReactNode } from 'react';
 import { render, RenderOptions } from '@testing-library/react';
 import { ThemeProvider } from 'styled-components';
-import { darkTheme } from 'components';
+import { darkTheme } from 'src';
 
 const AllTheProviders = ({ children }: { children: ReactNode }) => (
   <ThemeProvider theme={darkTheme}>{children}</ThemeProvider>
