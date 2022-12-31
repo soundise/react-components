@@ -34,7 +34,7 @@ jobs:
 
       - name: Generate new version
         run: |
-          echo "TAG=$(npm version ${{ github.event.inputs.version }} -m "chore: v%s release")" >> $GITHUB_ENV
+          echo "TAG=$(npm version ${{ github.event.inputs.version }} -s -m "chore: v%s release")" >> $GITHUB_ENV
 
       - name: Push new tag to repository
         run: git push origin $TAG
