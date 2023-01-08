@@ -4,6 +4,7 @@ import * as colors from './colors';
 import { breakpoints } from './breakpoints';
 
 export const lightTheme: ITheme = {
+  variant: 'light',
   typography: {
     ...typography,
   },
@@ -13,7 +14,12 @@ export const lightTheme: ITheme = {
     textPrimary: colors.neutral.black,
     textSecondary: colors.neutral.white,
     textTertiary: colors.primary.pr500,
-    ...colors,
+    neutral: colors.neutral,
+    primary: colors.primary,
+    gray: colors.gray,
+    green: colors.greenLight,
+    yellow: colors.yellowLight,
+    red: colors.redLight,
   },
   breakpoints: {
     ...breakpoints,

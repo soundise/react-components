@@ -1,4 +1,5 @@
 export interface ITheme {
+  variant: 'light' | 'dark';
   typography: {
     fonts: {
       primary: string;
@@ -45,18 +46,6 @@ export interface ITheme {
       gr800: string;
       gr900: string;
     };
-    red: {
-      r050: string;
-      r100: string;
-      r200: string;
-      r300: string;
-      r400: string;
-      r500: string;
-      r600: string;
-      r700: string;
-      r800: string;
-      r900: string;
-    };
     green: {
       g050: string;
       g100: string;
@@ -68,6 +57,30 @@ export interface ITheme {
       g700: string;
       g800: string;
       g900: string;
+    };
+    yellow: {
+      y050: string;
+      y100: string;
+      y200: string;
+      y300: string;
+      y400: string;
+      y500: string;
+      y600: string;
+      y700: string;
+      y800: string;
+      y900: string;
+    };
+    red: {
+      r050: string;
+      r100: string;
+      r200: string;
+      r300: string;
+      r400: string;
+      r500: string;
+      r600: string;
+      r700: string;
+      r800: string;
+      r900: string;
     };
   };
   breakpoints: {
