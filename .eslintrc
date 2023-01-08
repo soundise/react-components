@@ -35,6 +35,7 @@
     "no-nested-ternary": "off",
     "no-unused-vars": "off",
     "no-use-before-define": "off",
+    "no-restricted-exports": "off",
     "react/react-in-jsx-scope": "off",
     "react/jsx-props-no-spreading": "off",
     "react/function-component-definition": "off",

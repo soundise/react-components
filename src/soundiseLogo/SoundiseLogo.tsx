@@ -1,5 +1,5 @@
 import React, { SVGProps } from 'react';
-import styled, { css } from 'styled-components';
+import styled, { css } from '../styledComponents';
 
 export interface ISoundiseLogoProps
   extends SVGProps<SVGSVGElement>,
