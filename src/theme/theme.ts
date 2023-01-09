@@ -12,6 +12,13 @@ export interface ITheme {
       bold: number;
     };
   };
+  breakpoints: {
+    sm: string;
+    md: string;
+    lg: string;
+    xl: string;
+    xxl: string;
+  };
   colors: {
     background: string;
     foreground: string;
@@ -82,12 +89,5 @@ export interface ITheme {
       r800: string;
       r900: string;
     };
-  };
-  breakpoints: {
-    sm: string;
-    md: string;
-    lg: string;
-    xl: string;
-    xxl: string;
   };
 }
