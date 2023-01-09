@@ -1,5 +1,6 @@
-export { neutral } from './neutral';
-export { primary } from './primary';
-export { gray } from './gray';
-export { red } from './red';
-export { green } from './green';
+export * from './neutral';
+export * from './primary';
+export * from './gray';
+export * from './green';
+export * from './yellow';
+export * from './red';
