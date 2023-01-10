@@ -24,7 +24,7 @@
   ],
   "type": "module",
   "files": [
-    "dist"
+    "dist/**/*"
   ],
   "main": "./dist/soundise-react-components.umd.cjs",
   "module": "./dist/soundise-react-components.js",
