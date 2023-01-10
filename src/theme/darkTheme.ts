@@ -1,27 +1,33 @@
 import type { ITheme } from './theme';
-import * as typography from './typography';
-import * as colors from './colors';
+import { fonts, weights } from './typography';
 import { breakpoints } from './breakpoints';
+import {
+  neutral,
+  primary,
+  gray,
+  greenDark,
+  yellowDark,
+  redDark,
+} from './colors';
 
 export const darkTheme: ITheme = {
   variant: 'dark',
   typography: {
-    ...typography,
+    fonts,
+    weights,
   },
+  breakpoints,
   colors: {
-    background: colors.neutral.black,
-    foreground: colors.neutral.white,
-    textPrimary: colors.neutral.white,
-    textSecondary: colors.neutral.black,
-    textTertiary: colors.primary.pr500,
-    neutral: colors.neutral,
-    primary: colors.primary,
-    gray: colors.gray,
-    green: colors.greenDark,
-    yellow: colors.yellowDark,
-    red: colors.redDark,
-  },
-  breakpoints: {
-    ...breakpoints,
+    background: neutral.black,
+    foreground: neutral.white,
+    textPrimary: neutral.white,
+    textSecondary: neutral.black,
+    textTertiary: primary.pr500,
+    neutral,
+    primary,
+    gray,
+    green: greenDark,
+    yellow: yellowDark,
+    red: redDark,
   },
 };

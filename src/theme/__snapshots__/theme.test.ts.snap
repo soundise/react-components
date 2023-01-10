@@ -106,8 +106,8 @@ exports[`Theme snapshot 2`] = `
     "xxl": "1536px",
   },
   "colors": {
-    "background": "#FFFFFF",
-    "foreground": "#000000",
+    "background": "#000000",
+    "foreground": "#FFFFFF",
     "gray": {
       "gr050": "#F2F2F2",
       "gr100": "#E5E5E5",
@@ -160,8 +160,8 @@ exports[`Theme snapshot 2`] = `
       "r800": "#661813",
       "r900": "#330C0A",
     },
-    "textPrimary": "#000000",
-    "textSecondary": "#FFFFFF",
+    "textPrimary": "#FFFFFF",
+    "textSecondary": "#000000",
     "textTertiary": "#8D71FF",
     "yellow": {
       "y050": "#FFFCF0",

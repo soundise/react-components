@@ -1,27 +1,33 @@
 import type { ITheme } from './theme';
-import * as typography from './typography';
-import * as colors from './colors';
+import { fonts, weights } from './typography';
 import { breakpoints } from './breakpoints';
+import {
+  neutral,
+  primary,
+  gray,
+  greenLight,
+  yellowLight,
+  redLight,
+} from './colors';
 
 export const lightTheme: ITheme = {
   variant: 'light',
   typography: {
-    ...typography,
+    fonts,
+    weights,
   },
+  breakpoints,
   colors: {
-    background: colors.neutral.white,
-    foreground: colors.neutral.black,
-    textPrimary: colors.neutral.black,
-    textSecondary: colors.neutral.white,
-    textTertiary: colors.primary.pr500,
-    neutral: colors.neutral,
-    primary: colors.primary,
-    gray: colors.gray,
-    green: colors.greenLight,
-    yellow: colors.yellowLight,
-    red: colors.redLight,
-  },
-  breakpoints: {
-    ...breakpoints,
+    background: neutral.black,
+    foreground: neutral.white,
+    textPrimary: neutral.white,
+    textSecondary: neutral.black,
+    textTertiary: primary.pr500,
+    neutral,
+    primary,
+    gray,
+    green: greenLight,
+    yellow: yellowLight,
+    red: redLight,
   },
 };
