@@ -1,5 +1,6 @@
 import React from 'react';
 import { render, cleanup } from 'tests';
+import 'jest-styled-components';
 import { SoundiseLogo } from './SoundiseLogo';
 import { darkTheme } from '../theme';
 
@@ -20,7 +21,7 @@ describe('SoundiseLogo', () => {
     const soundiseLogoPaths = getAllByTestId('soundise-logo-path');
 
     soundiseLogoPaths.forEach((path) => {
-      expect(path).toHaveStyle(`fill: ${darkTheme.colors.textPrimary}`);
+      expect(path).toHaveStyleRule('fill', darkTheme.colors.textPrimary);
     });
     expect(soundiseLogoPaths).toMatchSnapshot();
   });
@@ -30,7 +31,7 @@ describe('SoundiseLogo', () => {
     const soundiseLogoPaths = getAllByTestId('soundise-logo-path');
 
     soundiseLogoPaths.forEach((path) => {
-      expect(path).toHaveStyle(`fill: ${darkTheme.colors.textSecondary}`);
+      expect(path).toHaveStyleRule('fill', darkTheme.colors.textSecondary);
     });
     expect(soundiseLogoPaths).toMatchSnapshot();
   });
