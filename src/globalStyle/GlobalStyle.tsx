@@ -22,6 +22,10 @@ export const GlobalStyle = createGlobalStyle`
 }) => theme.colors.background};
   }
 
+  *:focus-visible {
+    outline: 2px solid ${({ theme }) => theme.colors.primary.pr500} !important;
+  }
+
   *::selection {
     background-color: ${({ theme }) => theme.colors.primary.pr500};
     color: ${({ theme }) => theme.colors.neutral.white};
@@ -41,11 +45,19 @@ export const GlobalStyle = createGlobalStyle`
     background: ${({ theme }) => theme.colors.background};;
   }
 
-  ::-webkit-scrollbar-corner {
+  *::-webkit-scrollbar-corner {
     background: ${({ theme }) => theme.colors.background};;
   }
 
+  html {
+    color-scheme: ${({ theme }) => theme.variant};
+  }
+
   body {
+    max-width: 100vw;
+    min-height: 100vh;
+    position: relative;
+    font-size: 100%;
     background: ${({ theme }) => theme.colors.background};
   }
 `;
