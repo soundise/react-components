@@ -1,7 +1,6 @@
 export const breakpoints = {
-  sm: '640px',
-  md: '768px',
-  lg: '1024px',
-  xl: '1280px',
-  xxl: '1536px',
+  mobileLandscape: '480px',
+  tablet: '768px',
+  desktopSmall: '1024px',
+  desktopLarge: '1440px',
 };

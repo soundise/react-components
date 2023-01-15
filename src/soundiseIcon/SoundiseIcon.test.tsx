@@ -21,7 +21,7 @@ describe('SoundiseIcon', () => {
     const soundiseIconPaths = getAllByTestId('soundise-icon-path');
 
     soundiseIconPaths.forEach((path) => {
-      expect(path).toHaveStyleRule('fill', darkTheme.colors.textPrimary);
+      expect(path).toHaveStyleRule('fill', darkTheme.colors.text.primary);
     });
     expect(soundiseIconPaths).toMatchSnapshot();
   });
@@ -31,7 +31,7 @@ describe('SoundiseIcon', () => {
     const soundiseIconPaths = getAllByTestId('soundise-icon-path');
 
     soundiseIconPaths.forEach((path) => {
-      expect(path).toHaveStyleRule('fill', darkTheme.colors.textSecondary);
+      expect(path).toHaveStyleRule('fill', darkTheme.colors.text.secondary);
     });
     expect(soundiseIconPaths).toMatchSnapshot();
   });

@@ -13,21 +13,21 @@ export const GlobalStyle = createGlobalStyle`
 }) => theme.typography.fonts.secondary}, ${({ theme }) =>
   theme.typography.fonts.fallback};
     font-weight: ${({ theme }) => theme.typography.weights.regular};
-    color: ${({ theme }) => theme.colors.textPrimary};
+    color: ${({ theme }) => theme.colors.text.primary};
     text-decoration: none;
     scroll-behavior: smooth;
     scrollbar-width: thin;
-    scrollbar-color: ${({ theme }) => theme.colors.primary.pr500} ${({
+    scrollbar-color: ${({ theme }) => theme.colors.brand.tertiary} ${({
   theme,
 }) => theme.colors.background};
   }
 
   *:focus-visible {
-    outline: 2px solid ${({ theme }) => theme.colors.primary.pr500} !important;
+    outline: 2px solid ${({ theme }) => theme.colors.brand.tertiary} !important;
   }
 
   *::selection {
-    background-color: ${({ theme }) => theme.colors.primary.pr500};
+    background-color: ${({ theme }) => theme.colors.brand.tertiary};
     color: ${({ theme }) => theme.colors.neutral.white};
   }
 
@@ -38,7 +38,7 @@ export const GlobalStyle = createGlobalStyle`
 
   *::-webkit-scrollbar-thumb {
     border-radius: 4px;
-    background: ${({ theme }) => theme.colors.primary.pr500};
+    background: ${({ theme }) => theme.colors.brand.tertiary};
   }
 
   *::-webkit-scrollbar-track {
@@ -59,5 +59,12 @@ export const GlobalStyle = createGlobalStyle`
     position: relative;
     font-size: 100%;
     background: ${({ theme }) => theme.colors.background};
+  }
+
+  pre, code {
+    font-family: ${({ theme }) => theme.typography.fonts.code.primary}, ${({
+  theme,
+}) => theme.typography.fonts.code.secondary}, ${({ theme }) =>
+  theme.typography.fonts.code.fallback};
   }
 `;

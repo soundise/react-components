@@ -1,30 +1,46 @@
 export interface ITheme {
+  name: string;
   variant: 'light' | 'dark';
   typography: {
     fonts: {
       primary: string;
       secondary: string;
       fallback: string;
+      code: {
+        primary: string;
+        secondary: string;
+        fallback: string;
+      };
     };
     weights: {
-      light: number;
       regular: number;
       bold: number;
     };
   };
   breakpoints: {
-    sm: string;
-    md: string;
-    lg: string;
-    xl: string;
-    xxl: string;
+    mobileLandscape: string;
+    tablet: string;
+    desktopSmall: string;
+    desktopLarge: string;
   };
   colors: {
     background: string;
     foreground: string;
-    textPrimary: string;
-    textSecondary: string;
-    textTertiary: string;
+    text: {
+      primary: string;
+      secondary: string;
+      tertiary: string;
+    };
+    status: {
+      success: string;
+      warning: string;
+      error: string;
+    };
+    brand: {
+      primary: string;
+      secondary: string;
+      tertiary: string;
+    };
     neutral: {
       white: string;
       black: string;

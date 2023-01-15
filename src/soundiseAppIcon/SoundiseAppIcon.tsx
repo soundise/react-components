@@ -13,7 +13,7 @@ export const SoundiseAppIcon = ({
   variant = 'primary',
   ...props
 }: ISoundiseAppIconProps) => (
-  <svg
+  <AppIcon
     xmlns="http://www.w3.org/2000/svg"
     width="64"
     height="64"
@@ -39,25 +39,29 @@ export const SoundiseAppIcon = ({
       variant={variant}
       data-testid="soundise-app-icon-path"
     />
-  </svg>
+  </AppIcon>
 );
 
+const AppIcon = styled.svg`
+  display: block;
+`;
+
 const Rect = styled.rect<ISoundiseAppIconPathProps>`
-  fill: ${({ theme }) => theme.colors.textPrimary};
+  fill: ${({ theme }) => theme.colors.brand.primary};
 
   ${({ variant }) =>
     variant === 'secondary' &&
     css`
-      fill: ${({ theme }) => theme.colors.textSecondary};
+      fill: ${({ theme }) => theme.colors.brand.secondary};
     `}
 `;
 
 const Path = styled.path<ISoundiseAppIconPathProps>`
-  fill: ${({ theme }) => theme.colors.textSecondary};
+  fill: ${({ theme }) => theme.colors.brand.secondary};
 
   ${({ variant }) =>
     variant === 'secondary' &&
     css`
-      fill: ${({ theme }) => theme.colors.textPrimary};
+      fill: ${({ theme }) => theme.colors.brand.primary};
     `}
 `;

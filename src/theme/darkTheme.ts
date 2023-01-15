@@ -11,6 +11,7 @@ import {
 } from './colors';
 
 export const darkTheme: ITheme = {
+  name: 'Soundise Dark Theme',
   variant: 'dark',
   typography: {
     fonts,
@@ -20,9 +21,21 @@ export const darkTheme: ITheme = {
   colors: {
     background: neutral.black,
     foreground: neutral.white,
-    textPrimary: neutral.white,
-    textSecondary: neutral.black,
-    textTertiary: primary.pr500,
+    text: {
+      primary: neutral.white,
+      secondary: neutral.black,
+      tertiary: primary.pr500,
+    },
+    status: {
+      success: greenDark.g500,
+      warning: yellowDark.y500,
+      error: redDark.r500,
+    },
+    brand: {
+      primary: neutral.black,
+      secondary: neutral.white,
+      tertiary: primary.pr500,
+    },
     neutral,
     primary,
     gray,

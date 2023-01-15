@@ -24,6 +24,5 @@
     "typeRoots": ["node_modules/@types", "src/index.d.ts"]
   },
   "include": ["src", "tests"],
-  "files": ["./jest.config.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

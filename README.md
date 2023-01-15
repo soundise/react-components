@@ -13,7 +13,7 @@
 
 ## Components
 
-Visit [components.soundise.com](https://components.soundise.com) to check out available components.
+Visit [ui.soundise.com](https://ui.soundise.com) to check out available components.
 
 ## Installation
 

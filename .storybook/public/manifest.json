@@ -1,0 +1,20 @@
+{
+  "name": "Soundise UI",
+  "short_name": "Soundise UI",
+  "description": "We utilize the power of Storybook to provide comprehensive documentation for our design system.",
+  "icons": [
+    {
+      "src": "https://assets.soundise.com/web-assets/google-touch-icon-dark.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "background_color": "#000000",
+  "theme_color": "#8D71FF",
+  "id": "/",
+  "start_url": "/",
+  "orientation": "portrait",
+  "display": "standalone",
+  "dir": "ltr"
+}

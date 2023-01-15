@@ -3,7 +3,7 @@
   "version": "1.2.0",
   "license": "GPL-3.0-only",
   "description": "Soundise React component library",
-  "homepage": "https://components.soundise.com",
+  "homepage": "https://ui.soundise.com",
   "author": {
     "name": "Soundise",
     "email": "soundise@soundise.com"
@@ -36,9 +36,9 @@
     }
   },
   "scripts": {
-    "dev": "vite",
+    "dev": "storybook dev -p 3000",
     "build": "tsc && vite build",
-    "preview": "vite preview",
+    "build-storybook": "storybook build",
     "test": "jest",
     "test-update": "jest --update-snapshot",
     "check-types": "tsc --pretty --noEmit",
@@ -53,6 +53,15 @@
     "styled-components": "^6.0.0-beta.9"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.0-beta.27",
+    "@storybook/addon-interactions": "^7.0.0-beta.27",
+    "@storybook/addon-links": "^7.0.0-beta.27",
+    "@storybook/addons": "^6.5.15",
+    "@storybook/blocks": "^7.0.0-beta.27",
+    "@storybook/react": "^7.0.0-beta.27",
+    "@storybook/react-vite": "^7.0.0-beta.27",
+    "@storybook/testing-library": "^0.0.13",
+    "@storybook/theming": "^6.5.15",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@types/node": "^18.11.17",
@@ -75,9 +84,11 @@
     "jest-environment-jsdom": "^29.3.1",
     "jest-styled-components": "^7.1.1",
     "prettier": "^2.8.1",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-is": "^18.2.0",
+    "storybook": "^7.0.0-beta.27",
     "styled-components": "^6.0.0-beta.9",
     "ts-jest": "^29.0.3",
     "ts-node": "^10.9.1",

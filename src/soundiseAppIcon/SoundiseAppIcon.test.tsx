@@ -20,35 +20,35 @@ describe('SoundiseAppIcon', () => {
     const { getAllByTestId, getByTestId } = render(
       <SoundiseAppIcon variant="primary" />
     );
-    const soundiseAppIconPaths = getAllByTestId('soundise-app-icon-path');
     const soundiseAppIconRect = getByTestId('soundise-app-icon-rect');
+    const soundiseAppIconPaths = getAllByTestId('soundise-app-icon-path');
 
-    soundiseAppIconPaths.forEach((path) => {
-      expect(path).toHaveStyleRule('fill', darkTheme.colors.textSecondary);
-    });
     expect(soundiseAppIconRect).toHaveStyleRule(
       'fill',
-      darkTheme.colors.textPrimary
+      darkTheme.colors.brand.primary
     );
-    expect(soundiseAppIconPaths).toMatchSnapshot();
+    soundiseAppIconPaths.forEach((path) => {
+      expect(path).toHaveStyleRule('fill', darkTheme.colors.brand.secondary);
+    });
     expect(soundiseAppIconRect).toMatchSnapshot();
+    expect(soundiseAppIconPaths).toMatchSnapshot();
   });
 
   it('should render secondary Soundise app icon', () => {
     const { getAllByTestId, getByTestId } = render(
       <SoundiseAppIcon variant="secondary" />
     );
-    const soundiseAppIconPaths = getAllByTestId('soundise-app-icon-path');
     const soundiseAppIconRect = getByTestId('soundise-app-icon-rect');
+    const soundiseAppIconPaths = getAllByTestId('soundise-app-icon-path');
 
-    soundiseAppIconPaths.forEach((path) => {
-      expect(path).toHaveStyleRule('fill', darkTheme.colors.textPrimary);
-    });
     expect(soundiseAppIconRect).toHaveStyleRule(
       'fill',
-      darkTheme.colors.textSecondary
+      darkTheme.colors.brand.secondary
     );
-    expect(soundiseAppIconPaths).toMatchSnapshot();
+    soundiseAppIconPaths.forEach((path) => {
+      expect(path).toHaveStyleRule('fill', darkTheme.colors.brand.primary);
+    });
     expect(soundiseAppIconRect).toMatchSnapshot();
+    expect(soundiseAppIconPaths).toMatchSnapshot();
   });
 });
