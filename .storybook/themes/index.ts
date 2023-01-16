@@ -1,1 +1,1 @@
-export { soundise } from './soundise';
+export { soundiseDark } from './soundiseDark';

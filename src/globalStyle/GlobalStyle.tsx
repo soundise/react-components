@@ -15,15 +15,12 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: ${({ theme }) => theme.typography.weights.regular};
     color: ${({ theme }) => theme.colors.text.primary};
     text-decoration: none;
+    accent-color: ${({ theme }) => theme.colors.brand.tertiary};
     scroll-behavior: smooth;
     scrollbar-width: thin;
     scrollbar-color: ${({ theme }) => theme.colors.brand.tertiary} ${({
   theme,
 }) => theme.colors.background};
-  }
-
-  *:focus-visible {
-    outline: 2px solid ${({ theme }) => theme.colors.brand.tertiary} !important;
   }
 
   *::selection {
@@ -42,11 +39,11 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   *::-webkit-scrollbar-track {
-    background: ${({ theme }) => theme.colors.background};;
+    background: ${({ theme }) => theme.colors.background};
   }
 
   *::-webkit-scrollbar-corner {
-    background: ${({ theme }) => theme.colors.background};;
+    background: ${({ theme }) => theme.colors.background};
   }
 
   html {

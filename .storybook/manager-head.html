@@ -62,3 +62,89 @@
   href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=JetBrains+Mono:wght@400;700&display=swap"
   rel="stylesheet"
 />
+
+<style>
+  * {
+    accent-color: #8D71FF !important;
+    scroll-behavior: smooth !important;
+  }
+
+  *::selection {
+    background-color: #8D71FF !important;
+    color: #FFFFFF !important;
+  }
+
+  .sidebar-header a {
+    margin: 0.625rem 0 !important;
+  }
+
+  .sidebar-item {
+    padding-top: 0.625em !important;
+    padding-bottom: 0.625rem !important;
+    display: flex !important;
+    align-items: center !important;
+    font-size: 0.75rem !important;
+  }
+
+  .sidebar-item[data-selected="false"]:hover, .sidebar-item[data-selected="false"]:focus, .sidebar-item[data-nodetype="component"]:hover, .sidebar-item[data-nodetype="component"]:focus, .sidebar-item[data-nodetype="group"]:hover, .sidebar-item[data-nodetype="group"]:focus {
+    background: none !important;
+  }
+
+  .sidebar-item > span,
+  .sidebar-item > svg {
+    margin-top: 0 !important;
+    margin-right: 0.5rem !important;
+  }
+
+  .sidebar-svg-icon, .sidebar-item svg {
+    width: 1rem !important;
+    height: 1rem !important;
+    color: inherit !important;
+  }
+
+  #storybook-explorer-searchfield {
+    border-radius: 0.5rem !important;
+  }
+
+  .tabbutton-active {
+    color: #FFFFFF !important;
+  }
+
+  textarea {
+    min-height: 2rem !important;
+    resize: vertical; !important;
+  }
+
+  textarea::-webkit-resizer {
+    display: none !important;
+  }
+
+  img, iframe {
+    user-select: none !important;
+  }
+
+  #about, #release-notes, #shortcuts, #S, #T, #A, #D, #F, #\002F, #up, #down, #prev, #next, #collapse {
+    border-left: 1px solid #8D71FF !important;
+    border-right: 1px solid #8D71FF !important;
+  }
+
+  #about:hover, #release-notes:hover, #shortcuts:hover, #S:hover, #T:hover, #A:hover, #D:hover, #F:hover, #\002F:hover, #up:hover, #down:hover, #prev:hover, #next:hover, #collapse:hover {
+    background: none !important;
+  }
+
+  #about {
+    border-top: 1px solid #8D71FF !important;
+    border-top-left-radius: 0.5rem !important;
+    border-top-right-radius: 0.5rem !important;
+  }
+
+  #shortcuts {
+    border-bottom: 1px solid #1C1C1C !important;
+  }
+
+  #collapse {
+    border-bottom: 1px solid #8D71FF !important;
+    border-bottom-left-radius: 0.5rem !important;
+    border-bottom-right-radius: 0.5rem !important;
+  }
+</style>

@@ -1,6 +1,9 @@
 import { addons } from '@storybook/addons';
-import { soundise } from './themes';
+import { soundiseDark } from './themes';
 
 addons.setConfig({
-  theme: soundise,
+  theme: soundiseDark,
+  sidebar: {
+    showRoots: false,
+  },
 });

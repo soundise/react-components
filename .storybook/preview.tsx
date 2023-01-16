@@ -1,7 +1,7 @@
 import type { StoryFn, Parameters, Decorator } from '@storybook/react';
 import { ThemeProvider, createGlobalStyle } from 'styled-components';
 import { darkTheme, GlobalStyle } from '../src';
-import { soundise } from './themes';
+import { soundiseDark } from './themes';
 
 export const parameters: Parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
@@ -12,7 +12,7 @@ export const parameters: Parameters = {
     },
   },
   docs: {
-    theme: soundise,
+    theme: soundiseDark,
   },
 };
 
