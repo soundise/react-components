@@ -4,28 +4,28 @@ import { darkTheme } from '../../src';
 export const soundiseDark = create({
   base: 'dark',
 
-  colorPrimary: darkTheme.colors.neutral.white,
-  colorSecondary: darkTheme.colors.primary.pr500,
+  colorPrimary: darkTheme.colors.brand.secondary,
+  colorSecondary: darkTheme.colors.brand.tertiary,
 
-  appBg: darkTheme.colors.neutral.black,
-  appContentBg: darkTheme.colors.neutral.black,
+  appBg: darkTheme.colors.background,
+  appContentBg: darkTheme.colors.background,
   appBorderColor: darkTheme.colors.gray.gr900,
   appBorderRadius: 0,
 
   fontBase: `${darkTheme.typography.fonts.primary}, ${darkTheme.typography.fonts.secondary}, ${darkTheme.typography.fonts.fallback}`,
   fontCode: `${darkTheme.typography.fonts.code.primary}, ${darkTheme.typography.fonts.code.secondary}, ${darkTheme.typography.fonts.code.fallback}`,
 
-  textColor: darkTheme.colors.neutral.white,
-  textInverseColor: darkTheme.colors.neutral.black,
+  textColor: darkTheme.colors.text.primary,
+  textInverseColor: darkTheme.colors.text.secondary,
   textMutedColor: darkTheme.colors.gray.gr500,
 
   barTextColor: darkTheme.colors.gray.gr500,
-  barSelectedColor: darkTheme.colors.primary.pr500,
-  barBg: darkTheme.colors.neutral.black,
+  barSelectedColor: darkTheme.colors.text.primary,
+  barBg: darkTheme.colors.background,
 
-  inputBg: darkTheme.colors.neutral.black,
+  inputBg: darkTheme.colors.background,
   inputBorder: darkTheme.colors.gray.gr900,
-  inputTextColor: darkTheme.colors.neutral.white,
+  inputTextColor: darkTheme.colors.text.primary,
   inputBorderRadius: 8,
 
   brandTitle: 'Soundise',

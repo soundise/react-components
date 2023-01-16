@@ -107,7 +107,7 @@
   }
 
   .tabbutton-active {
-    color: #FFFFFF !important;
+    border-bottom-color: #8D71FF !important;
   }
 
   textarea {
@@ -124,8 +124,8 @@
   }
 
   #about, #release-notes, #shortcuts, #S, #T, #A, #D, #F, #\002F, #up, #down, #prev, #next, #collapse {
-    border-left: 1px solid #1C1C1C !important;
-    border-right: 1px solid #1C1C1C !important;
+    border-left: 1px solid #E5E5E5 !important;
+    border-right: 1px solid #E5E5E5 !important;
   }
 
   #about:hover, #release-notes:hover, #shortcuts:hover, #S:hover, #T:hover, #A:hover, #D:hover, #F:hover, #\002F:hover, #up:hover, #down:hover, #prev:hover, #next:hover, #collapse:hover {
@@ -133,18 +133,37 @@
   }
 
   #about {
-    border-top: 1px solid #1C1C1C !important;
+    border-top: 1px solid #E5E5E5 !important;
     border-top-left-radius: 0.5rem !important;
     border-top-right-radius: 0.5rem !important;
   }
 
   #shortcuts {
-    border-bottom: 1px solid #1C1C1C !important;
+    border-bottom: 1px solid #E5E5E5 !important;
   }
 
   #collapse {
-    border-bottom: 1px solid #1C1C1C !important;
+    border-bottom: 1px solid #E5E5E5 !important;
     border-bottom-left-radius: 0.5rem !important;
     border-bottom-right-radius: 0.5rem !important;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    #about, #release-notes, #shortcuts, #S, #T, #A, #D, #F, #\002F, #up, #down, #prev, #next, #collapse {
+      border-left: 1px solid #1C1C1C !important;
+      border-right: 1px solid #1C1C1C !important;
+    }
+
+    #about {
+      border-top: 1px solid #1C1C1C !important;
+    }
+
+    #shortcuts {
+      border-bottom: 1px solid #1C1C1C !important;
+    }
+
+    #collapse {
+      border-bottom: 1px solid #1C1C1C !important;
+    }
   }
 </style>

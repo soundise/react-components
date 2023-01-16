@@ -1,7 +1,7 @@
 import type { StoryFn, Parameters, Decorator } from '@storybook/react';
-import { ThemeProvider, createGlobalStyle } from 'styled-components';
-import { darkTheme, GlobalStyle } from '../src';
-import { soundiseDark } from './themes';
+import { ThemeProvider, createGlobalStyle, css } from 'styled-components';
+import { lightTheme, GlobalStyle } from '../src';
+import { soundiseLight } from './themes';
 
 export const parameters: Parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
@@ -12,19 +12,25 @@ export const parameters: Parameters = {
     },
   },
   docs: {
-    theme: soundiseDark,
+    theme: soundiseLight,
   },
 };
 
 const PreviewStyle = createGlobalStyle`
   body {
-    background: ${({ theme }) => theme.colors.gray.gr800};
+    background: ${({ theme }) => theme.colors.gray.gr100};
+
+      ${({ theme }) =>
+        theme.variant === 'dark' &&
+        css`
+          background: ${({ theme }) => theme.colors.gray.gr900};
+        `}
   }
 `;
 
 export const decorators: Decorator[] = [
   (Story: StoryFn) => (
-    <ThemeProvider theme={darkTheme}>
+    <ThemeProvider theme={lightTheme}>
       <GlobalStyle />
       <PreviewStyle />
       <Story />
