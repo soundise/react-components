@@ -29,8 +29,11 @@ jobs:
       - name: Run tests
         run: yarn test
 
-      - name: Build
+      - name: Build library
         run: yarn build
+
+      - name: Build Storybook
+        run: yarn build-storybook
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3

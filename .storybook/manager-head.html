@@ -65,13 +65,13 @@
 
 <style>
   * {
-    accent-color: #8D71FF !important;
+    accent-color: #8d71ff !important;
     scroll-behavior: smooth !important;
   }
 
   *::selection {
-    background-color: #8D71FF !important;
-    color: #FFFFFF !important;
+    background-color: #8d71ff !important;
+    color: #ffffff !important;
   }
 
   .sidebar-header a {
@@ -86,7 +86,12 @@
     font-size: 0.75rem !important;
   }
 
-  .sidebar-item[data-selected="false"]:hover, .sidebar-item[data-selected="false"]:focus, .sidebar-item[data-nodetype="component"]:hover, .sidebar-item[data-nodetype="component"]:focus, .sidebar-item[data-nodetype="group"]:hover, .sidebar-item[data-nodetype="group"]:focus {
+  .sidebar-item[data-selected='false']:hover,
+  .sidebar-item[data-selected='false']:focus,
+  .sidebar-item[data-nodetype='component']:hover,
+  .sidebar-item[data-nodetype='component']:focus,
+  .sidebar-item[data-nodetype='group']:hover,
+  .sidebar-item[data-nodetype='group']:focus {
     background: none !important;
   }
 
@@ -96,7 +101,8 @@
     margin-right: 0.5rem !important;
   }
 
-  .sidebar-svg-icon, .sidebar-item svg {
+  .sidebar-svg-icon,
+  .sidebar-item svg {
     width: 1rem !important;
     height: 1rem !important;
     color: inherit !important;
@@ -107,63 +113,103 @@
   }
 
   .tabbutton-active {
-    border-bottom-color: #8D71FF !important;
+    border-bottom-color: #8d71ff !important;
   }
 
   textarea {
     min-height: 2rem !important;
-    resize: vertical; !important;
+    resize: vertical !important;
   }
 
   textarea::-webkit-resizer {
     display: none !important;
   }
 
-  img, iframe {
+  img,
+  iframe {
     user-select: none !important;
   }
 
-  #about, #release-notes, #shortcuts, #S, #T, #A, #D, #F, #\002F, #up, #down, #prev, #next, #collapse {
-    border-left: 1px solid #E5E5E5 !important;
-    border-right: 1px solid #E5E5E5 !important;
+  #about,
+  #release-notes,
+  #shortcuts,
+  #S,
+  #T,
+  #A,
+  #D,
+  #F,
+  #\002F,
+  #up,
+  #down,
+  #prev,
+  #next,
+  #collapse {
+    border-left: 1px solid #e5e5e5 !important;
+    border-right: 1px solid #e5e5e5 !important;
   }
 
-  #about:hover, #release-notes:hover, #shortcuts:hover, #S:hover, #T:hover, #A:hover, #D:hover, #F:hover, #\002F:hover, #up:hover, #down:hover, #prev:hover, #next:hover, #collapse:hover {
+  #about:hover,
+  #release-notes:hover,
+  #shortcuts:hover,
+  #S:hover,
+  #T:hover,
+  #A:hover,
+  #D:hover,
+  #F:hover,
+  #\002F:hover,
+  #up:hover,
+  #down:hover,
+  #prev:hover,
+  #next:hover,
+  #collapse:hover {
     background: none !important;
   }
 
   #about {
-    border-top: 1px solid #E5E5E5 !important;
+    border-top: 1px solid #e5e5e5 !important;
     border-top-left-radius: 0.5rem !important;
     border-top-right-radius: 0.5rem !important;
   }
 
   #shortcuts {
-    border-bottom: 1px solid #E5E5E5 !important;
+    border-bottom: 1px solid #e5e5e5 !important;
   }
 
   #collapse {
-    border-bottom: 1px solid #E5E5E5 !important;
+    border-bottom: 1px solid #e5e5e5 !important;
     border-bottom-left-radius: 0.5rem !important;
     border-bottom-right-radius: 0.5rem !important;
   }
 
   @media (prefers-color-scheme: dark) {
-    #about, #release-notes, #shortcuts, #S, #T, #A, #D, #F, #\002F, #up, #down, #prev, #next, #collapse {
-      border-left: 1px solid #1C1C1C !important;
-      border-right: 1px solid #1C1C1C !important;
+    #about,
+    #release-notes,
+    #shortcuts,
+    #S,
+    #T,
+    #A,
+    #D,
+    #F,
+    #\002F,
+    #up,
+    #down,
+    #prev,
+    #next,
+    #collapse {
+      border-left: 1px solid #1c1c1c !important;
+      border-right: 1px solid #1c1c1c !important;
     }
 
     #about {
-      border-top: 1px solid #1C1C1C !important;
+      border-top: 1px solid #1c1c1c !important;
     }
 
     #shortcuts {
-      border-bottom: 1px solid #1C1C1C !important;
+      border-bottom: 1px solid #1c1c1c !important;
     }
 
     #collapse {
-      border-bottom: 1px solid #1C1C1C !important;
+      border-bottom: 1px solid #1c1c1c !important;
     }
   }
 </style>
