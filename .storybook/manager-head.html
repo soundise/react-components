@@ -29,6 +29,7 @@
 <meta
   property="og:image"
   content="https://assets.soundise.com/web-assets/seo-dark.png"
+  key="og image"
 />
 
 <meta property="twitter:url" content="https://ui.soundise.com" />
@@ -41,15 +42,21 @@
 <meta
   property="twitter:image"
   content="https://assets.soundise.com/web-assets/seo-dark.png"
+  key="tw image"
 />
 
 <link rel="manifest" href="/manifest.json" />
 
-<link rel="icon" href="https://assets.soundise.com/web-assets/favicon.svg" />
 <link
   rel="icon"
   href="https://assets.soundise.com/web-assets/favicon.svg"
-  color="#8D71FF"
+  key="favicon"
+/>
+<link
+  rel="icon"
+  href="https://assets.soundise.com/web-assets/favicon.svg"
+  color="#FFFFFF"
+  key="hex favicon"
 />
 <link
   rel="apple-touch-icon"
@@ -65,13 +72,44 @@
 
 <style>
   * {
+    text-size-adjust: 100% !important;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
     accent-color: #8d71ff !important;
     scroll-behavior: smooth !important;
+    scrollbar-width: thin !important;
+    scrollbar-color: #8d71ff #ffffff !important;
   }
 
   *::selection {
     background-color: #8d71ff !important;
     color: #ffffff !important;
+  }
+
+  *::-webkit-scrollbar {
+    width: 4px !important;
+    height: 4px !important;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    border-radius: 4px !important;
+    background: #8d71ff !important;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff !important;
+  }
+
+  *::-webkit-scrollbar-corner {
+    background: #ffffff !important;
+  }
+
+  html {
+    color-scheme: light !important;
+  }
+
+  body {
+    background: #ffffff !important;
   }
 
   .sidebar-header a {
@@ -116,6 +154,17 @@
     border-bottom-color: #8d71ff !important;
   }
 
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    overflow-wrap: break-word !important;
+    hyphens: auto !important;
+  }
+
   textarea {
     min-height: 2rem !important;
     resize: vertical !important;
@@ -130,22 +179,16 @@
     user-select: none !important;
   }
 
-  #about,
-  #release-notes,
-  #shortcuts,
-  #S,
-  #T,
-  #A,
-  #D,
-  #F,
-  #\002F,
-  #up,
-  #down,
-  #prev,
-  #next,
-  #collapse {
-    border-left: 1px solid #e5e5e5 !important;
-    border-right: 1px solid #e5e5e5 !important;
+  div[role='main'] > div {
+    border-radius: 0 !important;
+  }
+
+  #root {
+    isolation: isolate !important;
+  }
+
+  #shortcuts {
+    border-bottom: 1px solid #e5e5e5 !important;
   }
 
   #about:hover,
@@ -161,54 +204,38 @@
   #down:hover,
   #prev:hover,
   #next:hover,
-  #collapse:hover {
+  #collapse:hover,
+  #mobile1:hover,
+  #mobile2:hover,
+  #tablet:hover,
+  #reset:hover,
+  #light:hover,
+  #dark:hover {
     background: none !important;
   }
 
-  #about {
-    border-top: 1px solid #e5e5e5 !important;
-    border-top-left-radius: 0.5rem !important;
-    border-top-right-radius: 0.5rem !important;
-  }
-
-  #shortcuts {
-    border-bottom: 1px solid #e5e5e5 !important;
-  }
-
-  #collapse {
-    border-bottom: 1px solid #e5e5e5 !important;
-    border-bottom-left-radius: 0.5rem !important;
-    border-bottom-right-radius: 0.5rem !important;
-  }
-
   @media (prefers-color-scheme: dark) {
-    #about,
-    #release-notes,
-    #shortcuts,
-    #S,
-    #T,
-    #A,
-    #D,
-    #F,
-    #\002F,
-    #up,
-    #down,
-    #prev,
-    #next,
-    #collapse {
-      border-left: 1px solid #1c1c1c !important;
-      border-right: 1px solid #1c1c1c !important;
+    * {
+      scrollbar-color: #8d71ff #000000 !important;
     }
 
-    #about {
-      border-top: 1px solid #1c1c1c !important;
+    *::-webkit-scrollbar-track {
+      background: #000000 !important;
+    }
+
+    *::-webkit-scrollbar-corner {
+      background: #000000 !important;
+    }
+
+    html {
+      color-scheme: dark !important;
+    }
+
+    body {
+      background: #000000 !important;
     }
 
     #shortcuts {
-      border-bottom: 1px solid #1c1c1c !important;
-    }
-
-    #collapse {
       border-bottom: 1px solid #1c1c1c !important;
     }
   }

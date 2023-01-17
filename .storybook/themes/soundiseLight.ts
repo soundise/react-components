@@ -10,7 +10,7 @@ export const soundiseLight = create({
   appBg: lightTheme.colors.background,
   appContentBg: lightTheme.colors.background,
   appBorderColor: lightTheme.colors.gray.gr100,
-  appBorderRadius: 0,
+  appBorderRadius: 4,
 
   fontBase: `${lightTheme.typography.fonts.primary}, ${lightTheme.typography.fonts.secondary}, ${lightTheme.typography.fonts.fallback}`,
   fontCode: `${lightTheme.typography.fonts.code.primary}, ${lightTheme.typography.fonts.code.secondary}, ${lightTheme.typography.fonts.code.fallback}`,

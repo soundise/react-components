@@ -13,7 +13,7 @@ export const SoundiseLogo = ({
   variant = 'primary',
   ...props
 }: ISoundiseLogoProps) => (
-  <Logo
+  <svg
     xmlns="http://www.w3.org/2000/svg"
     width="203"
     height="64"
@@ -37,12 +37,8 @@ export const SoundiseLogo = ({
       variant={variant}
       data-testid="soundise-logo-path"
     />
-  </Logo>
+  </svg>
 );
-
-const Logo = styled.svg`
-  display: block;
-`;
 
 const Path = styled.path<ISoundiseLogoPathProps>`
   fill: ${({ theme }) => theme.colors.text.primary};

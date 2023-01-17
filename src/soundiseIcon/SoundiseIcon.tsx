@@ -13,7 +13,7 @@ export const SoundiseIcon = ({
   variant = 'primary',
   ...props
 }: ISoundiseIconProps) => (
-  <Icon
+  <svg
     xmlns="http://www.w3.org/2000/svg"
     width="64"
     height="64"
@@ -32,12 +32,8 @@ export const SoundiseIcon = ({
       variant={variant}
       data-testid="soundise-icon-path"
     />
-  </Icon>
+  </svg>
 );
-
-const Icon = styled.svg`
-  display: block;
-`;
 
 const Path = styled.path<ISoundiseIconPathProps>`
   fill: ${({ theme }) => theme.colors.text.primary};

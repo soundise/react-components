@@ -4,6 +4,7 @@ import { soundiseLight, soundiseDark } from './themes';
 
 addons.setConfig({
   theme: isDarkMode() ? soundiseDark : soundiseLight,
+  initialActive: 'sidebar',
   sidebar: {
     showRoots: false,
   },

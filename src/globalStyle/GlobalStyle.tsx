@@ -12,9 +12,13 @@ export const GlobalStyle = createGlobalStyle`
   theme,
 }) => theme.typography.fonts.secondary}, ${({ theme }) =>
   theme.typography.fonts.fallback};
+    font-size: 1rem;
     font-weight: ${({ theme }) => theme.typography.weights.regular};
     color: ${({ theme }) => theme.colors.text.primary};
     text-decoration: none;
+    text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
     accent-color: ${({ theme }) => theme.colors.brand.tertiary};
     scroll-behavior: smooth;
     scrollbar-width: thin;
@@ -50,12 +54,29 @@ export const GlobalStyle = createGlobalStyle`
     color-scheme: ${({ theme }) => theme.variant};
   }
 
+  html, body, #root, #__next, #___gatsby, #gatsby-focus-wrapper {
+    height: 100%;
+  }
+
   body {
     max-width: 100vw;
-    min-height: 100vh;
     position: relative;
     font-size: 100%;
     background: ${({ theme }) => theme.colors.background};
+  }
+
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  input, button, textarea, select {
+    font: inherit;
+  }
+
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+    hyphens: auto;
   }
 
   pre, code {
@@ -63,5 +84,9 @@ export const GlobalStyle = createGlobalStyle`
   theme,
 }) => theme.typography.fonts.code.secondary}, ${({ theme }) =>
   theme.typography.fonts.code.fallback};
+  }
+
+  #root, #__next, #___gatsby, #gatsby-focus-wrapper {
+    isolation: isolate;
   }
 `;
