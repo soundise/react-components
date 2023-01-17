@@ -15,10 +15,13 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 1rem;
     font-weight: ${({ theme }) => theme.typography.weights.regular};
     color: ${({ theme }) => theme.colors.text.primary};
+    line-height: 1.5;
     text-decoration: none;
+    text-overflow: ellipsis;
     text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     accent-color: ${({ theme }) => theme.colors.brand.tertiary};
     scroll-behavior: smooth;
     scrollbar-width: thin;
