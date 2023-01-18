@@ -15,6 +15,18 @@ export const parameters: Parameters = {
   docs: {
     theme: isDarkMode() ? soundiseDark : soundiseLight,
   },
+  backgrounds: {
+    values: [
+      {
+        name: 'Light',
+        value: lightTheme.colors.gray.gr100,
+      },
+      {
+        name: 'Dark',
+        value: darkTheme.colors.gray.gr900,
+      },
+    ],
+  },
 };
 
 const PreviewStyle = createGlobalStyle`
