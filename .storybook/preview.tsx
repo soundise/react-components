@@ -29,6 +29,16 @@ export const parameters: Parameters = {
   },
 };
 
+export const decorators: Decorator[] = [
+  (Story: StoryFn) => (
+    <ThemeProvider theme={isDarkMode() ? darkTheme : lightTheme}>
+      <GlobalStyle />
+      <PreviewStyle />
+      <Story />
+    </ThemeProvider>
+  ),
+];
+
 const PreviewStyle = createGlobalStyle`
   body {
     background: ${({ theme }) => theme.colors.gray.gr100};
@@ -40,13 +50,3 @@ const PreviewStyle = createGlobalStyle`
         `}
   }
 `;
-
-export const decorators: Decorator[] = [
-  (Story: StoryFn) => (
-    <ThemeProvider theme={isDarkMode() ? darkTheme : lightTheme}>
-      <GlobalStyle />
-      <PreviewStyle />
-      <Story />
-    </ThemeProvider>
-  ),
-];

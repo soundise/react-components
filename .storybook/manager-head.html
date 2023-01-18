@@ -127,13 +127,8 @@
     font-size: 0.75rem !important;
   }
 
-  .sidebar-item[data-selected='false']:hover,
-  .sidebar-item[data-selected='false']:focus,
-  .sidebar-item[data-nodetype='component']:hover,
-  .sidebar-item[data-nodetype='component']:focus,
-  .sidebar-item[data-nodetype='group']:hover,
-  .sidebar-item[data-nodetype='group']:focus {
-    background: none !important;
+  .sidebar-item[data-selected='true']:hover {
+    background: #8d71ff !important;
   }
 
   .sidebar-item > span,
@@ -182,6 +177,15 @@
     user-select: none !important;
   }
 
+  a:hover,
+  .sidebar-item[data-selected='false']:focus,
+  .sidebar-item[data-nodetype='component']:hover,
+  .sidebar-item[data-nodetype='component']:focus,
+  .sidebar-item[data-nodetype='group']:hover,
+  .sidebar-item[data-nodetype='group']:focus {
+    background: none !important;
+  }
+
   div[role='main'] > div {
     border-radius: 0 !important;
   }
@@ -192,29 +196,6 @@
 
   #shortcuts {
     border-bottom: 1px solid #e5e5e5 !important;
-  }
-
-  #about:hover,
-  #release-notes:hover,
-  #shortcuts:hover,
-  #S:hover,
-  #T:hover,
-  #A:hover,
-  #D:hover,
-  #F:hover,
-  #\002F:hover,
-  #up:hover,
-  #down:hover,
-  #prev:hover,
-  #next:hover,
-  #collapse:hover,
-  #mobile1:hover,
-  #mobile2:hover,
-  #tablet:hover,
-  #reset:hover,
-  #Light:hover,
-  #Dark:hover {
-    background: none !important;
   }
 
   @media (prefers-color-scheme: dark) {

@@ -54,15 +54,13 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   html {
-    color-scheme: ${({ theme }) => theme.variant};
-  }
-
-  html, body, #root, #__next, #___gatsby, #gatsby-focus-wrapper {
     height: 100%;
+    color-scheme: ${({ theme }) => theme.variant};
   }
 
   body {
     max-width: 100vw;
+    height: 100%;
     position: relative;
     font-size: 100%;
     background: ${({ theme }) => theme.colors.background};
@@ -90,6 +88,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   #root, #__next, #___gatsby, #gatsby-focus-wrapper {
+    height: 100%;
     isolation: isolate;
   }
 `;
