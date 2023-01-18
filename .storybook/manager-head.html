@@ -74,6 +74,8 @@
   * {
     line-height: 1.5 !important;
     text-overflow: ellipsis !important;
+    overflow-wrap: break-word !important;
+    hyphens: auto !important;
     text-size-adjust: 100% !important;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
@@ -85,8 +87,8 @@
   }
 
   *::selection {
-    background-color: #8d71ff !important;
     color: #ffffff !important;
+    background-color: #8d71ff !important;
   }
 
   *::-webkit-scrollbar {
@@ -113,6 +115,37 @@
 
   body {
     background: #ffffff !important;
+  }
+
+  img,
+  picture,
+  video,
+  canvas,
+  svg,
+  iframe {
+    user-select: none !important;
+  }
+
+  textarea {
+    min-height: 2rem !important;
+    resize: vertical !important;
+  }
+
+  textarea::-webkit-resizer {
+    display: none !important;
+  }
+
+  a:hover,
+  .sidebar-item[data-selected='false']:focus,
+  .sidebar-item[data-nodetype='component']:hover,
+  .sidebar-item[data-nodetype='component']:focus,
+  .sidebar-item[data-nodetype='group']:hover,
+  .sidebar-item[data-nodetype='group']:focus {
+    background: none !important;
+  }
+
+  div[role='main'] > div {
+    border-radius: 0 !important;
   }
 
   .sidebar-header a {
@@ -144,50 +177,12 @@
     color: inherit !important;
   }
 
-  #storybook-explorer-searchfield {
-    border-radius: 0.5rem !important;
-  }
-
   .tabbutton-active {
     border-bottom-color: #8d71ff !important;
   }
 
-  p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    overflow-wrap: break-word !important;
-    hyphens: auto !important;
-  }
-
-  textarea {
-    min-height: 2rem !important;
-    resize: vertical !important;
-  }
-
-  textarea::-webkit-resizer {
-    display: none !important;
-  }
-
-  img,
-  iframe {
-    user-select: none !important;
-  }
-
-  a:hover,
-  .sidebar-item[data-selected='false']:focus,
-  .sidebar-item[data-nodetype='component']:hover,
-  .sidebar-item[data-nodetype='component']:focus,
-  .sidebar-item[data-nodetype='group']:hover,
-  .sidebar-item[data-nodetype='group']:focus {
-    background: none !important;
-  }
-
-  div[role='main'] > div {
-    border-radius: 0 !important;
+  #storybook-explorer-searchfield {
+    border-radius: 0.5rem !important;
   }
 
   #root {

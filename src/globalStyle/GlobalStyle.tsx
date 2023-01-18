@@ -18,6 +18,8 @@ export const GlobalStyle = createGlobalStyle`
     line-height: 1.5;
     text-decoration: none;
     text-overflow: ellipsis;
+    overflow-wrap: break-word;
+    hyphens: auto;
     text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -31,8 +33,8 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   *::selection {
-    background-color: ${({ theme }) => theme.colors.brand.tertiary};
     color: ${({ theme }) => theme.colors.neutral.white};
+    background-color: ${({ theme }) => theme.colors.brand.tertiary};
   }
 
   *::-webkit-scrollbar {
@@ -66,18 +68,14 @@ export const GlobalStyle = createGlobalStyle`
     background: ${({ theme }) => theme.colors.background};
   }
 
-  img, picture, video, canvas, svg {
-    display: block;
+  img, picture, video, canvas, svg, iframe {
     max-width: 100%;
+    display: block;
+    user-select: none;
   }
 
   input, button, textarea, select {
     font: inherit;
-  }
-
-  p, h1, h2, h3, h4, h5, h6 {
-    overflow-wrap: break-word;
-    hyphens: auto;
   }
 
   pre, code {
