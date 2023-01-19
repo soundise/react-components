@@ -8,6 +8,7 @@ const config: Config = {
   setupFilesAfterEnv: ['<rootDir>/tests/jest.setup.ts'],
   transform: {
     '^.+\\.(ts|tsx)$': 'ts-jest',
+    '^.+\\.mdx$': '@storybook/addon-docs/jest-transform-mdx',
   },
   modulePaths: [compilerOptions.baseUrl],
   moduleDirectories: ['node_modules', 'src', 'tests'],

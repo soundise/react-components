@@ -1,5 +1,5 @@
 <a href="https://soundise.com" align="center">
-  <img src="https://assets.soundise.com/headers/header-github-readme-dark.svg" width="100%">
+  <img src="https://assets.soundise.com/headers/header-github-readme-dark.svg" width="100%" />
 </a>
 
 <div align="center">
@@ -17,14 +17,14 @@ Visit [ui.soundise.com](https://ui.soundise.com) to check out available componen
 
 ## Installation
 
-<pre>
-yarn add <a href="https://www.npmjs.com/package/styled-components">styled-components</a>
+```bash
+yarn add styled-components
 
 # TypeScript
-yarn add <a href="https://www.npmjs.com/package/@types/styled-components">@types/styled-components</a>
+yarn add @types/styled-components
 
-yarn add <b>@soundise/react-components</b>
-</pre>
+yarn add @soundise/react-components
+```
 
 ## Setup
 

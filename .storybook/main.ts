@@ -10,6 +10,7 @@ const config: StorybookConfig = {
     '@storybook/addon-links',
     '@storybook/addon-essentials',
     '@storybook/addon-interactions',
+    '@storybook/addon-docs',
     '@storybook/addon-a11y',
     'storybook-addon-rem',
   ],
@@ -22,7 +23,7 @@ const config: StorybookConfig = {
     enableCrashReports: false,
   },
   docs: {
-    autodocs: 'tag',
+    autodocs: true,
   },
   staticDirs: ['public'],
 };
