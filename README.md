@@ -21,7 +21,7 @@ Visit [ui.soundise.com](https://ui.soundise.com) to check out available componen
 yarn add styled-components
 
 # TypeScript
-yarn add @types/styled-components
+yarn add -D @types/styled-components
 
 yarn add @soundise/react-components
 ```
