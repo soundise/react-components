@@ -9,7 +9,7 @@ export const soundiseDark = create({
 
   appBg: darkTheme.colors.background,
   appContentBg: darkTheme.colors.background,
-  appBorderColor: darkTheme.colors.gray.gr900,
+  appBorderColor: darkTheme.colors.border,
   appBorderRadius: 4,
 
   fontBase: `${darkTheme.typography.fonts.primary}, ${darkTheme.typography.fonts.secondary}, ${darkTheme.typography.fonts.fallback}`,
@@ -23,8 +23,8 @@ export const soundiseDark = create({
   barSelectedColor: darkTheme.colors.text.primary,
   barBg: darkTheme.colors.background,
 
-  inputBg: darkTheme.colors.background,
-  inputBorder: darkTheme.colors.gray.gr900,
+  inputBg: darkTheme.colors.foreground,
+  inputBorder: darkTheme.colors.border,
   inputTextColor: darkTheme.colors.text.primary,
   inputBorderRadius: 8,
 

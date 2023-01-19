@@ -20,7 +20,8 @@ export const darkTheme: ITheme = {
   breakpoints,
   colors: {
     background: neutral.black,
-    foreground: neutral.white,
+    foreground: gray.gr900,
+    border: gray.gr800,
     text: {
       primary: neutral.white,
       secondary: neutral.black,

@@ -26,6 +26,7 @@ export interface ITheme {
   colors: {
     background: string;
     foreground: string;
+    border: string;
     text: {
       primary: string;
       secondary: string;

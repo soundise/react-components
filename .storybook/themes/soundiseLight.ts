@@ -9,7 +9,7 @@ export const soundiseLight = create({
 
   appBg: lightTheme.colors.background,
   appContentBg: lightTheme.colors.background,
-  appBorderColor: lightTheme.colors.gray.gr100,
+  appBorderColor: lightTheme.colors.border,
   appBorderRadius: 4,
 
   fontBase: `${lightTheme.typography.fonts.primary}, ${lightTheme.typography.fonts.secondary}, ${lightTheme.typography.fonts.fallback}`,
@@ -23,8 +23,8 @@ export const soundiseLight = create({
   barSelectedColor: lightTheme.colors.text.primary,
   barBg: lightTheme.colors.background,
 
-  inputBg: lightTheme.colors.background,
-  inputBorder: lightTheme.colors.gray.gr100,
+  inputBg: lightTheme.colors.foreground,
+  inputBorder: lightTheme.colors.border,
   inputTextColor: lightTheme.colors.text.primary,
   inputBorderRadius: 8,
 

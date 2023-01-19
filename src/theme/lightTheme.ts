@@ -20,7 +20,8 @@ export const lightTheme: ITheme = {
   breakpoints,
   colors: {
     background: neutral.white,
-    foreground: neutral.black,
+    foreground: gray.gr050,
+    border: gray.gr100,
     text: {
       primary: neutral.black,
       secondary: neutral.white,

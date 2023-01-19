@@ -1,12 +1,10 @@
-name: Build and Test
+name: Publish Package
 on:
-  push:
-    branches: ['main']
-  pull_request:
-    branches: ['main']
+  release:
+    types: [created]
 
 jobs:
-  build-test:
+  publish-package:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -19,6 +17,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'yarn'
+          registry-url: https://registry.npmjs.org/
 
       - name: Install dependencies
         run: yarn
@@ -29,11 +28,13 @@ jobs:
       - name: Run tests
         run: yarn test
 
-      - name: Build library
+      - name: Build
         run: yarn build
-
-      - name: Build Storybook
-        run: yarn build-storybook
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
+
+      - name: Publish to NPM
+        run: npm publish --access=public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

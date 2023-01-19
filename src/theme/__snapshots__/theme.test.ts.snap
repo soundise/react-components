@@ -10,12 +10,13 @@ exports[`Theme snapshot 1`] = `
   },
   "colors": {
     "background": "#000000",
+    "border": "#2C2C2C",
     "brand": {
       "primary": "#000000",
       "secondary": "#FFFFFF",
       "tertiary": "#8D71FF",
     },
-    "foreground": "#FFFFFF",
+    "foreground": "#1C1C1C",
     "gray": {
       "gr050": "#F2F2F2",
       "gr100": "#E5E5E5",
@@ -122,12 +123,13 @@ exports[`Theme snapshot 2`] = `
   },
   "colors": {
     "background": "#FFFFFF",
+    "border": "#E5E5E5",
     "brand": {
       "primary": "#000000",
       "secondary": "#FFFFFF",
       "tertiary": "#8D71FF",
     },
-    "foreground": "#000000",
+    "foreground": "#F2F2F2",
     "gray": {
       "gr050": "#F2F2F2",
       "gr100": "#E5E5E5",
