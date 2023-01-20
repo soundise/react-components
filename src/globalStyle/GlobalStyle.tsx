@@ -32,6 +32,11 @@ export const GlobalStyle = createGlobalStyle`
     background-color: ${({ theme }) => theme.colors.brand.tertiary};
   }
 
+  button:focus-visible, a:focus-visible, input[type='checkbox']:focus-visible, input[type='radio']:focus-visible, input[type='range']:focus-visible {
+    outline-width: 2px;
+    outline-color: ${({ theme }) => theme.colors.brand.tertiary};
+  }
+
   html {
     height: 100%;
     color-scheme: ${({ theme }) => theme.variant};
