@@ -105,11 +105,11 @@
     box-shadow: none !important;
   }
 
-  .sb-argstableBlock-body tr:first-child td:first-child {
+  .sb-argstableBlock-body tr:first-of-type td:first-of-type {
     border-top-left-radius: 0 !important;
   }
 
-  .sb-argstableBlock-body tr:first-child td:last-child {
+  .sb-argstableBlock-body tr:first-of-type td:last-of-type {
     border-top-right-radius: 0 !important;
   }
 
@@ -162,15 +162,15 @@
     }
 
     .sb-argstableBlock,
-    .sb-previewBlock_icon,
     .sb-previewBlock,
-    .sb-argstableBlock th span,
-    .sb-argstableBlock td span {
+    .docs-story + div .prismjs {
       border-color: #2c2c2c !important;
     }
 
-    .docs-story + div .prismjs {
-      border-color: #2c2c2c !important;
+    .sb-previewBlock_icon,
+    .sb-argstableBlock th span,
+    .sb-argstableBlock td span {
+      background: #2c2c2c !important;
     }
   }
 </style>
