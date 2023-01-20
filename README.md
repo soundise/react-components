@@ -41,7 +41,7 @@ const Application = () => (
 );
 ```
 
-2. If you want to use our global style with reset CSS, custom selection, and custom scrollbars, do this:
+2. If you want to use our global style with reset CSS, and custom selection, do this:
 
 ```jsx
 import { ThemeProvider } from 'styled-components';

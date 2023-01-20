@@ -25,33 +25,11 @@ export const GlobalStyle = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
     accent-color: ${({ theme }) => theme.colors.brand.tertiary};
     scroll-behavior: smooth;
-    scrollbar-width: thin;
-    scrollbar-color: ${({ theme }) => theme.colors.brand.tertiary} ${({
-  theme,
-}) => theme.colors.background};
   }
 
   *::selection {
     color: ${({ theme }) => theme.colors.neutral.white};
     background-color: ${({ theme }) => theme.colors.brand.tertiary};
-  }
-
-  *::-webkit-scrollbar {
-    width: 4px;
-    height: 4px;
-  }
-
-  *::-webkit-scrollbar-thumb {
-    border-radius: 4px;
-    background: ${({ theme }) => theme.colors.brand.tertiary};
-  }
-
-  *::-webkit-scrollbar-track {
-    background: ${({ theme }) => theme.colors.background};
-  }
-
-  *::-webkit-scrollbar-corner {
-    background: ${({ theme }) => theme.colors.background};
   }
 
   html {
