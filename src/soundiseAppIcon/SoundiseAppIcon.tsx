@@ -22,6 +22,7 @@ export const SoundiseAppIcon = ({
     data-testid="soundise-app-icon"
     {...props}
   >
+    <title>Soundise</title>
     <Rect
       width="256"
       height="256"

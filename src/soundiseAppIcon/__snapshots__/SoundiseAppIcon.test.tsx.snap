@@ -100,6 +100,9 @@ exports[`SoundiseAppIcon should render the Soundise app icon as an SVG 1`] = `
   width="64"
   xmlns="http://www.w3.org/2000/svg"
 >
+  <title>
+    Soundise
+  </title>
   <rect
     class="c0"
     data-testid="soundise-app-icon-rect"
