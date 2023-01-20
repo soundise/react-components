@@ -96,13 +96,11 @@ exports[`Theme snapshot 1`] = `
   "typography": {
     "fonts": {
       "code": {
-        "fallback": "monospace",
+        "fallback": "ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace",
         "primary": "JetBrains Mono",
-        "secondary": "ui-monospace",
       },
-      "fallback": "sans-serif",
+      "fallback": "system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif",
       "primary": "Inter",
-      "secondary": "system-ui",
     },
     "weights": {
       "bold": 700,
@@ -209,13 +207,11 @@ exports[`Theme snapshot 2`] = `
   "typography": {
     "fonts": {
       "code": {
-        "fallback": "monospace",
+        "fallback": "ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace",
         "primary": "JetBrains Mono",
-        "secondary": "ui-monospace",
       },
-      "fallback": "sans-serif",
+      "fallback": "system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif",
       "primary": "Inter",
-      "secondary": "system-ui",
     },
     "weights": {
       "bold": 700,

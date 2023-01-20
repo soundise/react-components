@@ -4,11 +4,9 @@ export interface ITheme {
   typography: {
     fonts: {
       primary: string;
-      secondary: string;
       fallback: string;
       code: {
         primary: string;
-        secondary: string;
         fallback: string;
       };
     };

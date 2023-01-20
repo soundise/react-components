@@ -10,8 +10,7 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     font-family: ${({ theme }) => theme.typography.fonts.primary}, ${({
   theme,
-}) => theme.typography.fonts.secondary}, ${({ theme }) =>
-  theme.typography.fonts.fallback};
+}) => theme.typography.fonts.fallback};
     font-size: 1rem;
     font-weight: ${({ theme }) => theme.typography.weights.regular};
     color: ${({ theme }) => theme.colors.text.primary};
@@ -81,8 +80,7 @@ export const GlobalStyle = createGlobalStyle`
   pre, code {
     font-family: ${({ theme }) => theme.typography.fonts.code.primary}, ${({
   theme,
-}) => theme.typography.fonts.code.secondary}, ${({ theme }) =>
-  theme.typography.fonts.code.fallback};
+}) => theme.typography.fonts.code.fallback};
   }
 
   #root, #__next, #___gatsby, #gatsby-focus-wrapper {

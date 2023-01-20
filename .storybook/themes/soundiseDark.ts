@@ -12,8 +12,8 @@ export const soundiseDark = create({
   appBorderColor: darkTheme.colors.border,
   appBorderRadius: 4,
 
-  fontBase: `${darkTheme.typography.fonts.primary}, ${darkTheme.typography.fonts.secondary}, ${darkTheme.typography.fonts.fallback}`,
-  fontCode: `${darkTheme.typography.fonts.code.primary}, ${darkTheme.typography.fonts.code.secondary}, ${darkTheme.typography.fonts.code.fallback}`,
+  fontBase: `${darkTheme.typography.fonts.primary}, ${darkTheme.typography.fonts.fallback}`,
+  fontCode: `${darkTheme.typography.fonts.code.primary}, ${darkTheme.typography.fonts.code.fallback}`,
 
   textColor: darkTheme.colors.text.primary,
   textInverseColor: darkTheme.colors.text.secondary,
