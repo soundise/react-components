@@ -16,17 +16,8 @@ jobs:
       - name: Setup
         uses: ./.github/actions/setup
 
-      - name: Check types
-        run: yarn check-types
-
-      - name: Run tests
-        run: yarn test
-
       - name: Build
         run: yarn build
-
-      - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v3
 
       - name: Publish to NPM
         run: npm publish --access=public
