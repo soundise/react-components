@@ -8,3 +8,7 @@
 
 # production
 /dist
+/storybook-static
+
+# storybook
+!.storybook

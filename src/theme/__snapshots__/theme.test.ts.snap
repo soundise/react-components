@@ -3,15 +3,20 @@
 exports[`Theme snapshot 1`] = `
 {
   "breakpoints": {
-    "lg": "1024px",
-    "md": "768px",
-    "sm": "640px",
-    "xl": "1280px",
-    "xxl": "1536px",
+    "desktopLarge": "1440px",
+    "desktopSmall": "1024px",
+    "mobileLandscape": "480px",
+    "tablet": "768px",
   },
   "colors": {
     "background": "#000000",
-    "foreground": "#FFFFFF",
+    "border": "#2C2C2C",
+    "brand": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "tertiary": "#8D71FF",
+    },
+    "foreground": "#1C1C1C",
     "gray": {
       "gr050": "#F2F2F2",
       "gr100": "#E5E5E5",
@@ -64,9 +69,16 @@ exports[`Theme snapshot 1`] = `
       "r800": "#661C17",
       "r900": "#330E0C",
     },
-    "textPrimary": "#FFFFFF",
-    "textSecondary": "#000000",
-    "textTertiary": "#8D71FF",
+    "status": {
+      "error": "#FF453A",
+      "success": "#30D158",
+      "warning": "#FFD60A",
+    },
+    "text": {
+      "primary": "#FFFFFF",
+      "secondary": "#000000",
+      "tertiary": "#8D71FF",
+    },
     "yellow": {
       "y050": "#FFFDF0",
       "y100": "#FFF7CE",
@@ -80,15 +92,18 @@ exports[`Theme snapshot 1`] = `
       "y900": "#332B02",
     },
   },
+  "name": "Soundise Dark Theme",
   "typography": {
     "fonts": {
-      "fallback": "sans-serif",
+      "code": {
+        "fallback": "ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace",
+        "primary": "JetBrains Mono",
+      },
+      "fallback": "system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif",
       "primary": "Inter",
-      "secondary": "system-ui",
     },
     "weights": {
       "bold": 700,
-      "light": 200,
       "regular": 400,
     },
   },
@@ -99,15 +114,20 @@ exports[`Theme snapshot 1`] = `
 exports[`Theme snapshot 2`] = `
 {
   "breakpoints": {
-    "lg": "1024px",
-    "md": "768px",
-    "sm": "640px",
-    "xl": "1280px",
-    "xxl": "1536px",
+    "desktopLarge": "1440px",
+    "desktopSmall": "1024px",
+    "mobileLandscape": "480px",
+    "tablet": "768px",
   },
   "colors": {
     "background": "#FFFFFF",
-    "foreground": "#000000",
+    "border": "#E5E5E5",
+    "brand": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "tertiary": "#8D71FF",
+    },
+    "foreground": "#F2F2F2",
     "gray": {
       "gr050": "#F2F2F2",
       "gr100": "#E5E5E5",
@@ -160,9 +180,16 @@ exports[`Theme snapshot 2`] = `
       "r800": "#661813",
       "r900": "#330C0A",
     },
-    "textPrimary": "#000000",
-    "textSecondary": "#FFFFFF",
-    "textTertiary": "#8D71FF",
+    "status": {
+      "error": "#FF3B30",
+      "success": "#34C759",
+      "warning": "#FFCC00",
+    },
+    "text": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "tertiary": "#8D71FF",
+    },
     "yellow": {
       "y050": "#FFFCF0",
       "y100": "#FFF5CC",
@@ -176,15 +203,18 @@ exports[`Theme snapshot 2`] = `
       "y900": "#332900",
     },
   },
+  "name": "Soundise Light Theme",
   "typography": {
     "fonts": {
-      "fallback": "sans-serif",
+      "code": {
+        "fallback": "ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace",
+        "primary": "JetBrains Mono",
+      },
+      "fallback": "system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif",
       "primary": "Inter",
-      "secondary": "system-ui",
     },
     "weights": {
       "bold": 700,
-      "light": 200,
       "regular": 400,
     },
   },

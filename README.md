@@ -1,5 +1,5 @@
 <a href="https://soundise.com" align="center">
-  <img src="https://assets.soundise.com/headers/header-github-readme-dark.svg" width="100%">
+  <img src="https://assets.soundise.com/headers/header-github-readme-dark.svg" width="100%" />
 </a>
 
 <div align="center">
@@ -13,18 +13,18 @@
 
 ## Components
 
-Visit [components.soundise.com](https://components.soundise.com) to check out available components.
+Visit [ui.soundise.com](https://ui.soundise.com) to check out available components.
 
 ## Installation
 
-<pre>
-yarn add <a href="https://www.npmjs.com/package/styled-components">styled-components</a>
+```bash
+yarn add styled-components
 
 # TypeScript
-yarn add <a href="https://www.npmjs.com/package/@types/styled-components">@types/styled-components</a>
+yarn add -D @types/styled-components
 
-yarn add <b>@soundise/react-components</b>
-</pre>
+yarn add @soundise/react-components
+```
 
 ## Setup
 
@@ -41,7 +41,7 @@ const Application = () => (
 );
 ```
 
-2. If you want to use our global style with reset CSS, custom selection, and custom scrollbars, do this:
+2. If you want to use our global style with reset CSS, and custom selection, do this:
 
 ```jsx
 import { ThemeProvider } from 'styled-components';

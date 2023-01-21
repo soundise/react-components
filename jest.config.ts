@@ -16,6 +16,7 @@ const config: Config = {
     'src/**/*.{ts,tsx}',
     '!src/**/*.d.{ts,tsx}',
     '!src/**/index.ts',
+    '!src/**/*.stories.tsx',
     '!src/globalStyle/GlobalStyle.tsx',
   ],
   coverageThreshold: {

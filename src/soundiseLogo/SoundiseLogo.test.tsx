@@ -21,7 +21,7 @@ describe('SoundiseLogo', () => {
     const soundiseLogoPaths = getAllByTestId('soundise-logo-path');
 
     soundiseLogoPaths.forEach((path) => {
-      expect(path).toHaveStyleRule('fill', darkTheme.colors.textPrimary);
+      expect(path).toHaveStyleRule('fill', darkTheme.colors.text.primary);
     });
     expect(soundiseLogoPaths).toMatchSnapshot();
   });
@@ -31,7 +31,7 @@ describe('SoundiseLogo', () => {
     const soundiseLogoPaths = getAllByTestId('soundise-logo-path');
 
     soundiseLogoPaths.forEach((path) => {
-      expect(path).toHaveStyleRule('fill', darkTheme.colors.textSecondary);
+      expect(path).toHaveStyleRule('fill', darkTheme.colors.text.secondary);
     });
     expect(soundiseLogoPaths).toMatchSnapshot();
   });

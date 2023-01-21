@@ -11,6 +11,7 @@ import {
 } from './colors';
 
 export const lightTheme: ITheme = {
+  name: 'Soundise Light Theme',
   variant: 'light',
   typography: {
     fonts,
@@ -19,10 +20,23 @@ export const lightTheme: ITheme = {
   breakpoints,
   colors: {
     background: neutral.white,
-    foreground: neutral.black,
-    textPrimary: neutral.black,
-    textSecondary: neutral.white,
-    textTertiary: primary.pr500,
+    foreground: gray.gr050,
+    border: gray.gr100,
+    text: {
+      primary: neutral.black,
+      secondary: neutral.white,
+      tertiary: primary.pr500,
+    },
+    status: {
+      success: greenLight.g500,
+      warning: yellowLight.y500,
+      error: redLight.r500,
+    },
+    brand: {
+      primary: neutral.black,
+      secondary: neutral.white,
+      tertiary: primary.pr500,
+    },
     neutral,
     primary,
     gray,

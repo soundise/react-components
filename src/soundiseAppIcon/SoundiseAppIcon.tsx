@@ -22,6 +22,7 @@ export const SoundiseAppIcon = ({
     data-testid="soundise-app-icon"
     {...props}
   >
+    <title>Soundise</title>
     <Rect
       width="256"
       height="256"
@@ -43,21 +44,21 @@ export const SoundiseAppIcon = ({
 );
 
 const Rect = styled.rect<ISoundiseAppIconPathProps>`
-  fill: ${({ theme }) => theme.colors.textPrimary};
+  fill: ${({ theme }) => theme.colors.brand.primary};
 
   ${({ variant }) =>
     variant === 'secondary' &&
     css`
-      fill: ${({ theme }) => theme.colors.textSecondary};
+      fill: ${({ theme }) => theme.colors.brand.secondary};
     `}
 `;
 
 const Path = styled.path<ISoundiseAppIconPathProps>`
-  fill: ${({ theme }) => theme.colors.textSecondary};
+  fill: ${({ theme }) => theme.colors.brand.secondary};
 
   ${({ variant }) =>
     variant === 'secondary' &&
     css`
-      fill: ${({ theme }) => theme.colors.textPrimary};
+      fill: ${({ theme }) => theme.colors.brand.primary};
     `}
 `;
