@@ -12,6 +12,11 @@ export const parameters: Parameters = {
       date: /Date$/,
     },
   },
+  options: {
+    storySort: {
+      order: ['Introduction', 'Brand Identity', 'Components'],
+    },
+  },
   docs: {
     theme: isDarkMode() ? soundiseDark : soundiseLight,
   },

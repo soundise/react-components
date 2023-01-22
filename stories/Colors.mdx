@@ -1,0 +1,149 @@
+import { Meta, ColorPalette, ColorItem } from '@storybook/addon-docs';
+import {
+  neutral,
+  primary,
+  gray,
+  greenLight,
+  greenDark,
+  yellowLight,
+  yellowDark,
+  redLight,
+  redDark,
+} from '../src/theme';
+
+<Meta title="Brand Identity/Colors" />
+
+# Colors
+
+Colors are a crucial aspect of brand identity, they can evoke emotions and create a visual hierarchy.<br />
+When selecting colors, it's important to align them with its messaging and values.<br />
+It's also important to ensure the colors chosen can be easily reproduced across various mediums and platforms.
+
+## Neutral
+
+<ColorPalette>
+  {Object.entries(neutral).map((color) => (
+    <ColorItem
+      key={color[0]}
+      title={color[0]}
+      subtitle={color[1]}
+      colors={[color[1]]}
+    />
+  ))}
+</ColorPalette>
+
+## Primary
+
+<ColorPalette>
+  {Object.entries(primary).map((color) => (
+    <ColorItem
+      key={color[0]}
+      title={color[0]}
+      subtitle={color[1]}
+      colors={[color[1]]}
+    />
+  ))}
+</ColorPalette>
+
+## Gray
+
+<ColorPalette>
+  {Object.entries(gray).map((color) => (
+    <ColorItem
+      key={color[0]}
+      title={color[0]}
+      subtitle={color[1]}
+      colors={[color[1]]}
+    />
+  ))}
+</ColorPalette>
+
+## Green
+
+<br />
+
+### Light
+
+<ColorPalette>
+  {Object.entries(greenLight).map((color) => (
+    <ColorItem
+      key={color[0]}
+      title={color[0]}
+      subtitle={color[1]}
+      colors={[color[1]]}
+    />
+  ))}
+</ColorPalette>
+
+### Dark
+
+<ColorPalette>
+  {Object.entries(greenDark).map((color) => (
+    <ColorItem
+      key={color[0]}
+      title={color[0]}
+      subtitle={color[1]}
+      colors={[color[1]]}
+    />
+  ))}
+</ColorPalette>
+
+## Yellow
+
+<br />
+
+### Light
+
+<ColorPalette>
+  {Object.entries(yellowLight).map((color) => (
+    <ColorItem
+      key={color[0]}
+      title={color[0]}
+      subtitle={color[1]}
+      colors={[color[1]]}
+    />
+  ))}
+</ColorPalette>
+
+### Dark
+
+<ColorPalette>
+  {Object.entries(yellowDark).map((color) => (
+    <ColorItem
+      key={color[0]}
+      title={color[0]}
+      subtitle={color[1]}
+      colors={[color[1]]}
+    />
+  ))}
+</ColorPalette>
+
+## Red
+
+<br />
+
+### Light
+
+<ColorPalette>
+  {Object.entries(redLight).map((color) => (
+    <ColorItem
+      key={color[0]}
+      title={color[0]}
+      subtitle={color[1]}
+      colors={[color[1]]}
+    />
+  ))}
+</ColorPalette>
+
+### Dark
+
+<ColorPalette>
+  {Object.entries(redDark).map((color) => (
+    <ColorItem
+      key={color[0]}
+      title={color[0]}
+      subtitle={color[1]}
+      colors={[color[1]]}
+    />
+  ))}
+</ColorPalette>
