@@ -1,3 +1,35 @@
+import { Meta } from '@storybook/addon-docs';
+
+<Meta title="Components/GlobalStyle" />
+
+# GlobalStyle
+
+The `GlobalStyle` component is a wrapper around the `createGlobalStyle` function from `styled-components`.<br />
+It allows you to apply a consistent style across your entire application, including:
+
+- CSS reset
+- font definition
+- custom accent color
+- custom selection
+- and custom focus styles.
+
+## Usage
+
+```jsx
+import { ThemeProvider } from 'styled-components';
+import { darkTheme, GlobalStyle } from '@soundise/react-components';
+
+const Application = () => (
+  <ThemeProvider theme={darkTheme}>
+    <GlobalStyle />
+    <AppComponent /> // ---> Your App Component
+  </ThemeProvider>
+);
+```
+
+## Code
+
+```jsx
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
@@ -70,3 +102,4 @@ export const GlobalStyle = createGlobalStyle`
     isolation: isolate;
   }
 `;
+```

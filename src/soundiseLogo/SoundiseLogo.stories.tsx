@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { SoundiseLogo } from './SoundiseLogo';
 
 const meta: Meta<typeof SoundiseLogo> = {
-  title: 'Components/Soundise Logo',
+  title: 'Components/Soundise/Soundise Logo',
   component: SoundiseLogo,
 };
 

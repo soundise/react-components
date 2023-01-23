@@ -3,7 +3,7 @@
   "version": "1.2.0",
   "license": "GPL-3.0-only",
   "description": "Soundise React component library",
-  "homepage": "https://ui.soundise.com",
+  "homepage": "https://storybook.soundise.com",
   "author": {
     "name": "Soundise",
     "email": "soundise@soundise.com"

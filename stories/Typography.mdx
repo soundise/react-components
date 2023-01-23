@@ -1,0 +1,49 @@
+import { Meta, Typeset } from '@storybook/addon-docs';
+import { fonts, weights } from '../src/theme';
+
+<Meta title="Theme/Typography" />
+
+# Typography
+
+Proper typography creates clear hierarchy and organizes information according to importance.<br />
+Typography, when applied well, makes content communication clear, efficient and effective.
+
+## { fonts.primary }
+
+Regular: **{ weights.regular }**
+
+<Typeset
+  fontSizes={[12, 14, 16, 18, 20, 24, 28, 32]}
+  fontWeight={weights.regular}
+  sampleText="Self-hosted music streaming service"
+  fontFamily={fonts.primary}
+/>
+
+Bold: **{ weights.bold }**
+
+<Typeset
+  fontSizes={[12, 14, 16, 18, 20, 24, 28, 32]}
+  fontWeight={weights.bold}
+  sampleText="Self-hosted music streaming service"
+  fontFamily={fonts.primary}
+/>
+
+## { fonts.code.primary }
+
+Regular: **{ weights.regular }**
+
+<Typeset
+  fontSizes={[12, 14, 16, 18, 20, 24, 28, 32]}
+  fontWeight={weights.regular}
+  sampleText="Self-hosted music streaming service"
+  fontFamily={fonts.code.primary}
+/>
+
+Bold: **{ weights.bold }**
+
+<Typeset
+  fontSizes={[12, 14, 16, 18, 20, 24, 28, 32]}
+  fontWeight={weights.bold}
+  sampleText="Self-hosted music streaming service"
+  fontFamily={fonts.code.primary}
+/>
