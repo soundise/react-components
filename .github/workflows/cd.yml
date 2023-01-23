@@ -44,7 +44,7 @@ jobs:
         id: deployment
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          environment-url: https://ui.soundise.com
+          environment-url: https://storybook.soundise.com
           environment: Production
 
       - name: Upload S3
