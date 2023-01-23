@@ -1,0 +1,27 @@
+import { Meta } from '@storybook/addon-docs';
+import { breakpoints } from '../src/theme';
+
+<Meta title="Theme/Breakpoints" />
+
+# Breakpoints
+
+Breakpoints adjust layout and typography for optimal user experience on different devices.<br />
+This ensures easy readability and usability on any screen size.<br />
+By establishing breakpoints, designers can create clear hierarchy and organize information for efficient and effective content communication.
+
+## Breakpoint sizes
+
+These tokens roughly translate to the following sizes:
+
+<ul>
+  {Object.entries(breakpoints).map((breakpoint) => (
+    <li>
+      {breakpoint[0]}: <b>&gt; {breakpoint[1]}</b>
+    </li>
+  ))}
+</ul>
+
+## Designing with breakpoints
+
+To ensure a design works well on mobile devices, it is crucial for user experience and user interface designers to first create layouts for mobile devices.<br />
+By taking a mobile-first approach, which focuses on smaller screens, designers can make sure the design is easily adaptable and accessible while maintaining a consistent flow of information across all devices.

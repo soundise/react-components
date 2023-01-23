@@ -14,7 +14,7 @@ export const parameters: Parameters = {
   },
   options: {
     storySort: {
-      order: ['Introduction', 'Brand Identity', 'Components'],
+      order: ['Introduction', 'Theme', 'Components'],
     },
   },
   docs: {
