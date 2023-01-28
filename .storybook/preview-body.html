@@ -110,6 +110,12 @@
     border-top-right-radius: 0 !important;
   }
 
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      scroll-behavior: auto;
+    }
+  }
+
   @media (max-width: 748px) {
     .docblock-argstable {
       display: block !important;

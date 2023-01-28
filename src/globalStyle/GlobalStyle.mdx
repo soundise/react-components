@@ -56,6 +56,10 @@ export const GlobalStyle = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
     accent-color: ${({ theme }) => theme.colors.brand.tertiary};
     scroll-behavior: smooth;
+
+    @media (prefers-reduced-motion: reduce) {
+      scroll-behavior: auto;
+    }
   }
 
   *::selection {

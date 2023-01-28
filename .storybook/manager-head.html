@@ -190,6 +190,12 @@
     border-bottom: 1px solid #e5e5e5 !important;
   }
 
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      scroll-behavior: auto !important;
+    }
+  }
+
   @media (prefers-color-scheme: dark) {
     html {
       color-scheme: dark !important;
