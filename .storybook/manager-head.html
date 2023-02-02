@@ -132,13 +132,16 @@
     display: none !important;
   }
 
-  a:hover,
   .sidebar-item[data-selected='false']:focus,
-  .sidebar-item[data-nodetype='component']:hover,
   .sidebar-item[data-nodetype='component']:focus,
-  .sidebar-item[data-nodetype='group']:hover,
   .sidebar-item[data-nodetype='group']:focus {
     background: none !important;
+  }
+
+  a:hover,
+  .sidebar-item[data-nodetype='component']:hover,
+  .sidebar-item[data-nodetype='group']:hover {
+    background: #f3f1fe !important;
   }
 
   div[role='main'] > div {
@@ -203,6 +206,12 @@
 
     body {
       background: #000000 !important;
+    }
+
+    a:hover,
+    .sidebar-item[data-nodetype='component']:hover,
+    .sidebar-item[data-nodetype='group']:hover {
+      background: #1c1733 !important;
     }
 
     #shortcuts {
