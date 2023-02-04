@@ -139,8 +139,10 @@
   }
 
   .sidebar-item[data-nodetype='component']:hover,
-  .sidebar-item[data-nodetype='group']:hover {
-    background: #f3f1fe !important;
+  .sidebar-item[data-nodetype='group']:hover,
+  .sidebar-item[data-nodetype='document']:hover,
+  .sidebar-item[data-nodetype='story']:hover {
+    background: rgba(141, 113, 255, 0.12) !important;
   }
 
   div[role='main'] > div {
@@ -205,11 +207,6 @@
 
     body {
       background: #000000 !important;
-    }
-
-    .sidebar-item[data-nodetype='component']:hover,
-    .sidebar-item[data-nodetype='group']:hover {
-      background: #1c1733 !important;
     }
 
     #shortcuts {
