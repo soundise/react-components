@@ -21,7 +21,7 @@ export const soundiseLight = create({
 
   barTextColor: lightTheme.colors.gray.gr400,
   barSelectedColor: lightTheme.colors.text.primary,
-  barBg: lightTheme.colors.foreground,
+  barBg: lightTheme.colors.background,
 
   inputBg: lightTheme.colors.foreground,
   inputBorder: lightTheme.colors.border,
