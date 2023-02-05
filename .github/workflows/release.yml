@@ -40,6 +40,6 @@ jobs:
         run: |
           git checkout -b chore/$VERSION-release
           git push -u origin chore/$VERSION-release
-          gh pr create -B main -t "chore: $VERSION release" -b "Release new version: $VERSION" -l release -a olekbaran,imLinguin -r olekbaran,imLinguin
+          gh pr create -B main -t "chore: $VERSION release" -b "Release new version: $VERSION" -l release -r olekbaran,imLinguin
         env:
           GITHUB_TOKEN: ${{ secrets.GA_PAT }}
