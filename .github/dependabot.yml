@@ -4,9 +4,6 @@ updates:
     directory: '/'
     schedule:
       interval: 'monthly'
-    assignees:
-      - 'olekbaran'
-      - 'imLinguin'
     commit-message:
       prefix: 'chore(deps):'
     labels:
@@ -20,9 +17,6 @@ updates:
     directory: '/'
     schedule:
       interval: 'monthly'
-    assignees:
-      - 'olekbaran'
-      - 'imLinguin'
     commit-message:
       prefix: 'chore(deps):'
     labels:
@@ -36,9 +30,6 @@ updates:
     directory: '/'
     schedule:
       interval: 'monthly'
-    assignees:
-      - 'olekbaran'
-      - 'imLinguin'
     commit-message:
       prefix: 'chore(deps):'
     labels:
