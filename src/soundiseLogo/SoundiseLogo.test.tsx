@@ -13,7 +13,6 @@ describe('SoundiseLogo', () => {
 
     expect(soundiseLogo).toBeInTheDocument();
     expect(soundiseLogo.tagName).toBe('svg');
-    expect(soundiseLogo).toMatchSnapshot();
   });
 
   it('should render primary Soundise logo', () => {
@@ -23,7 +22,6 @@ describe('SoundiseLogo', () => {
     soundiseLogoPaths.forEach((path) => {
       expect(path).toHaveStyleRule('fill', darkTheme.colors.text.primary);
     });
-    expect(soundiseLogoPaths).toMatchSnapshot();
   });
 
   it('should render secondary Soundise logo', () => {
@@ -33,6 +31,19 @@ describe('SoundiseLogo', () => {
     soundiseLogoPaths.forEach((path) => {
       expect(path).toHaveStyleRule('fill', darkTheme.colors.text.secondary);
     });
-    expect(soundiseLogoPaths).toMatchSnapshot();
+  });
+
+  it('should match primary Soundise logo snapshot', () => {
+    const { getByTestId } = render(<SoundiseLogo variant="primary" />);
+    const soundiseLogo = getByTestId('soundise-logo');
+
+    expect(soundiseLogo).toMatchSnapshot();
+  });
+
+  it('should match secondary Soundise logo snapshot', () => {
+    const { getByTestId } = render(<SoundiseLogo variant="secondary" />);
+    const soundiseLogo = getByTestId('soundise-logo');
+
+    expect(soundiseLogo).toMatchSnapshot();
   });
 });

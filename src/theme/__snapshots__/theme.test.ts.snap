@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Theme snapshot 1`] = `
+exports[`Theme should match dark theme snapshot 1`] = `
 {
   "breakpoints": {
     "desktopLarge": "1440px",
@@ -111,7 +111,7 @@ exports[`Theme snapshot 1`] = `
 }
 `;
 
-exports[`Theme snapshot 2`] = `
+exports[`Theme should match light theme snapshot 1`] = `
 {
   "breakpoints": {
     "desktopLarge": "1440px",

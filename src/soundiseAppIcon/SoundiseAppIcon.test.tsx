@@ -13,7 +13,6 @@ describe('SoundiseAppIcon', () => {
 
     expect(soundiseAppIcon).toBeInTheDocument();
     expect(soundiseAppIcon.tagName).toBe('svg');
-    expect(soundiseAppIcon).toMatchSnapshot();
   });
 
   it('should render primary Soundise app icon', () => {
@@ -30,8 +29,6 @@ describe('SoundiseAppIcon', () => {
     soundiseAppIconPaths.forEach((path) => {
       expect(path).toHaveStyleRule('fill', darkTheme.colors.brand.secondary);
     });
-    expect(soundiseAppIconRect).toMatchSnapshot();
-    expect(soundiseAppIconPaths).toMatchSnapshot();
   });
 
   it('should render secondary Soundise app icon', () => {
@@ -48,7 +45,19 @@ describe('SoundiseAppIcon', () => {
     soundiseAppIconPaths.forEach((path) => {
       expect(path).toHaveStyleRule('fill', darkTheme.colors.brand.primary);
     });
-    expect(soundiseAppIconRect).toMatchSnapshot();
-    expect(soundiseAppIconPaths).toMatchSnapshot();
+  });
+
+  it('should match primary Soundise app icon snapshot', () => {
+    const { getByTestId } = render(<SoundiseAppIcon variant="primary" />);
+    const soundiseAppIcon = getByTestId('soundise-app-icon');
+
+    expect(soundiseAppIcon).toMatchSnapshot();
+  });
+
+  it('should match secondary Soundise app icon snapshot', () => {
+    const { getByTestId } = render(<SoundiseAppIcon variant="secondary" />);
+    const soundiseAppIcon = getByTestId('soundise-app-icon');
+
+    expect(soundiseAppIcon).toMatchSnapshot();
   });
 });
