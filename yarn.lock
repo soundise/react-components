@@ -2047,27 +2047,27 @@
     slash "^3.0.0"
     util "^0.12.4"
 
-"@storybook/builder-vite@7.0.0-beta.43":
-  version "7.0.0-beta.43"
-  resolved "https://registry.yarnpkg.com/@storybook/builder-vite/-/builder-vite-7.0.0-beta.43.tgz#a909d03e76f9f2990c1927405d13e867f16eed1d"
-  integrity sha512-rCx+AKUr++HwUAqlD3doGhYebo3v/Tp5hRcrID0pXGBGF79+05DemYWD5Iy7fJtYoJg+d4MC5KuiMoQpBYT83w==
+"@storybook/builder-vite@7.0.0-beta.44":
+  version "7.0.0-beta.44"
+  resolved "https://registry.yarnpkg.com/@storybook/builder-vite/-/builder-vite-7.0.0-beta.44.tgz#abe1d2bbf2a28fc860ae9227be3cc570dbb02ab4"
+  integrity sha512-imwAWa8YtLbFRH3xBLo0ukV5i8IpD/sA6vo9Fc2jA0K5r5jiC8EGwpSFFsKxp5d3gLNCnYCU9vasfSvLdcIzzw==
   dependencies:
-    "@storybook/channel-postmessage" "7.0.0-beta.43"
-    "@storybook/channel-websocket" "7.0.0-beta.43"
-    "@storybook/client-logger" "7.0.0-beta.43"
-    "@storybook/core-common" "7.0.0-beta.43"
-    "@storybook/csf-plugin" "7.0.0-beta.43"
+    "@storybook/channel-postmessage" "7.0.0-beta.44"
+    "@storybook/channel-websocket" "7.0.0-beta.44"
+    "@storybook/client-logger" "7.0.0-beta.44"
+    "@storybook/core-common" "7.0.0-beta.44"
+    "@storybook/csf-plugin" "7.0.0-beta.44"
     "@storybook/mdx2-csf" next
-    "@storybook/node-logger" "7.0.0-beta.43"
-    "@storybook/preview" "7.0.0-beta.43"
-    "@storybook/preview-api" "7.0.0-beta.43"
-    "@storybook/types" "7.0.0-beta.43"
+    "@storybook/node-logger" "7.0.0-beta.44"
+    "@storybook/preview" "7.0.0-beta.44"
+    "@storybook/preview-api" "7.0.0-beta.44"
+    "@storybook/types" "7.0.0-beta.44"
     browser-assert "^1.2.1"
     es-module-lexer "^0.9.3"
     express "^4.17.3"
     fs-extra "^11.1.0"
     glob "^8.1.0"
-    glob-promise "^4.2.0"
+    glob-promise "^6.0.2"
     magic-string "^0.27.0"
     rollup "^2.25.0 || ^3.3.0"
     slash "^3.0.0"
@@ -2108,13 +2108,13 @@
     qs "^6.10.0"
     telejson "^7.0.3"
 
-"@storybook/channel-websocket@7.0.0-beta.43":
-  version "7.0.0-beta.43"
-  resolved "https://registry.yarnpkg.com/@storybook/channel-websocket/-/channel-websocket-7.0.0-beta.43.tgz#9660e5624702bb9485bc218330b5815a012e74e1"
-  integrity sha512-n5avyOxh1jDIAxXkwl4CJ0yn6WeJtS9HUu9vPhdCaHN3VQDn32FqUh7Se4gls3rlwJKRfKbjY0OxmqcNTB1nbA==
+"@storybook/channel-websocket@7.0.0-beta.44":
+  version "7.0.0-beta.44"
+  resolved "https://registry.yarnpkg.com/@storybook/channel-websocket/-/channel-websocket-7.0.0-beta.44.tgz#2ad36221f0e2a2642d41094a706c9b2e4f117c29"
+  integrity sha512-ZO2QKmNwygVR8dMvKJPghcGeLGWLSJ/6s/jYaAvGQz5KqW0Svdkf+O+8j7ULUmGqN4GTffcqVEVmrsPL5OKExw==
   dependencies:
-    "@storybook/channels" "7.0.0-beta.43"
-    "@storybook/client-logger" "7.0.0-beta.43"
+    "@storybook/channels" "7.0.0-beta.44"
+    "@storybook/client-logger" "7.0.0-beta.44"
     "@storybook/global" "^5.0.0"
     telejson "^7.0.3"
 
@@ -2260,13 +2260,13 @@
     regenerator-runtime "^0.13.7"
     util-deprecate "^1.0.2"
 
-"@storybook/core-client@7.0.0-beta.43":
-  version "7.0.0-beta.43"
-  resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.0.0-beta.43.tgz#8cae89b24a85e659e27120788249872655ad4c03"
-  integrity sha512-9dkJldN7zm0JfXllSxuKPxwKRNF0o+Vc03km9hSP1Ka8ItVNEwM/DqPpfLHssZADmyBJuVmWuUj15vYPNRUg3g==
+"@storybook/core-client@7.0.0-beta.44":
+  version "7.0.0-beta.44"
+  resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.0.0-beta.44.tgz#58eae8c1c06aaab664ece194f8b32343d10c2302"
+  integrity sha512-qu/lyalVzoOHUB9gLD/3kEMbYK6sRqD9tQLq8tIKvba0Jo7OxoT+sq9l6MmmodzeYT4xeOewrewPahYT0csBuQ==
   dependencies:
-    "@storybook/client-logger" "7.0.0-beta.43"
-    "@storybook/preview-api" "7.0.0-beta.43"
+    "@storybook/client-logger" "7.0.0-beta.44"
+    "@storybook/preview-api" "7.0.0-beta.44"
 
 "@storybook/core-common@7.0.0-beta.43":
   version "7.0.0-beta.43"
@@ -2408,6 +2408,14 @@
     "@storybook/csf-tools" "7.0.0-beta.43"
     unplugin "^0.10.2"
 
+"@storybook/csf-plugin@7.0.0-beta.44":
+  version "7.0.0-beta.44"
+  resolved "https://registry.yarnpkg.com/@storybook/csf-plugin/-/csf-plugin-7.0.0-beta.44.tgz#0232d0f1e3e97b6334685ccaeb4996efb7c32d71"
+  integrity sha512-3dXykcoVVX4uyWmjBlKr0vRSgFwrLTq+BAnKSJ8byQ/XVBuPUIJn04wt7Qxeez7DwOusU93zPIeUpn0rEn7GqQ==
+  dependencies:
+    "@storybook/csf-tools" "7.0.0-beta.44"
+    unplugin "^0.10.2"
+
 "@storybook/csf-tools@7.0.0-beta.43":
   version "7.0.0-beta.43"
   resolved "https://registry.yarnpkg.com/@storybook/csf-tools/-/csf-tools-7.0.0-beta.43.tgz#d6831d4f92bfd2fb8f9e54b07d10f0e7df868f75"
@@ -2469,6 +2477,19 @@
     "@storybook/core-common" "7.0.0-beta.43"
     "@storybook/preview-api" "7.0.0-beta.43"
     "@storybook/types" "7.0.0-beta.43"
+    "@types/doctrine" "^0.0.3"
+    doctrine "^3.0.0"
+    lodash "^4.17.21"
+
+"@storybook/docs-tools@7.0.0-beta.44":
+  version "7.0.0-beta.44"
+  resolved "https://registry.yarnpkg.com/@storybook/docs-tools/-/docs-tools-7.0.0-beta.44.tgz#faad1d5a0a391bce8632c22111995d0d05175c10"
+  integrity sha512-RwQU9js1yVIgj6hFHKx61q4q9lJTp5nCaDK2fysaEVESmwdDC+otw0/VQ112vTWXjD3VcMKN8DV1YZxhq/uyEw==
+  dependencies:
+    "@babel/core" "^7.12.10"
+    "@storybook/core-common" "7.0.0-beta.44"
+    "@storybook/preview-api" "7.0.0-beta.44"
+    "@storybook/types" "7.0.0-beta.44"
     "@types/doctrine" "^0.0.3"
     doctrine "^3.0.0"
     lodash "^4.17.21"
@@ -2623,36 +2644,36 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/preview@7.0.0-beta.43":
-  version "7.0.0-beta.43"
-  resolved "https://registry.yarnpkg.com/@storybook/preview/-/preview-7.0.0-beta.43.tgz#9c6ceb40f5caadc4859614868b5ef80d01922926"
-  integrity sha512-JQlHPdNf4RTFb4+kD7uT2Toi0qSaEfJKSAHxOmNzaYIULueHYy8hTA3V5phPb1XSuKbD/+LedCrMsl9l4WAQlA==
+"@storybook/preview@7.0.0-beta.44":
+  version "7.0.0-beta.44"
+  resolved "https://registry.yarnpkg.com/@storybook/preview/-/preview-7.0.0-beta.44.tgz#0a97a70e61a69fb3ef2858841f7568d8757cd57b"
+  integrity sha512-XMhnWZnXbkggp8kIAjt2Z8f8dE16YbIFwbvNWn73KqK7jFJtCdsNFy+yce+yRe8M+HwyoD6Be5XbUDN4yI7HzQ==
 
 "@storybook/react-vite@^7.0.0-beta.28":
-  version "7.0.0-beta.43"
-  resolved "https://registry.yarnpkg.com/@storybook/react-vite/-/react-vite-7.0.0-beta.43.tgz#d2e069e1a715e250d7d265d143323d87e1ba98cd"
-  integrity sha512-UITXkGsFnnUBPolvdSj50kt/gIiI4mdl9z3j56VsvnGVlpdvaduvkdYTlPU2VQlPsq9R8Nz/s2/r5iJmBfAwrg==
+  version "7.0.0-beta.44"
+  resolved "https://registry.yarnpkg.com/@storybook/react-vite/-/react-vite-7.0.0-beta.44.tgz#f11a00a8a5361387ca4cbc815477032ebefa53f9"
+  integrity sha512-N8A6y2Uk8xvUHz7cdCpfotrjH+1GARBNU8UeeQti/3DjhDRxWdB8GAR4g5muVT5+R90HPv94Fl0B1AboHpVDCA==
   dependencies:
     "@joshwooding/vite-plugin-react-docgen-typescript" "^0.2.1"
     "@rollup/pluginutils" "^4.2.0"
-    "@storybook/builder-vite" "7.0.0-beta.43"
-    "@storybook/react" "7.0.0-beta.43"
+    "@storybook/builder-vite" "7.0.0-beta.44"
+    "@storybook/react" "7.0.0-beta.44"
     "@vitejs/plugin-react" "^3.0.1"
     ast-types "^0.14.2"
     magic-string "^0.27.0"
     react-docgen "6.0.0-alpha.3"
 
-"@storybook/react@7.0.0-beta.43", "@storybook/react@^7.0.0-beta.28":
-  version "7.0.0-beta.43"
-  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-7.0.0-beta.43.tgz#41086e28d88b6a703aa84c3a53e6d00a31eb1695"
-  integrity sha512-IrtOCLLf+ZS3Rtci9Ce8WnqftTJmZ3GR9DludrclmY1vI8Vj8ejmM5M44qI76SDX5EeVsvWcrQzJGqvuWj1Swg==
+"@storybook/react@7.0.0-beta.44", "@storybook/react@^7.0.0-beta.28":
+  version "7.0.0-beta.44"
+  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-7.0.0-beta.44.tgz#68bb04154301c7eaa78d321cf490f0a09a8ecdf1"
+  integrity sha512-GfDcowwJ4D17eSoNfQYZGOdjGbcpXGaAo6CRN+GwXCDyp4r6HosHvgqnEoNaXqsyM32bfXqGE0GaUomj6q0ApA==
   dependencies:
-    "@storybook/client-logger" "7.0.0-beta.43"
-    "@storybook/core-client" "7.0.0-beta.43"
-    "@storybook/docs-tools" "7.0.0-beta.43"
+    "@storybook/client-logger" "7.0.0-beta.44"
+    "@storybook/core-client" "7.0.0-beta.44"
+    "@storybook/docs-tools" "7.0.0-beta.44"
     "@storybook/global" "^5.0.0"
-    "@storybook/preview-api" "7.0.0-beta.43"
-    "@storybook/types" "7.0.0-beta.43"
+    "@storybook/preview-api" "7.0.0-beta.44"
+    "@storybook/types" "7.0.0-beta.44"
     "@types/escodegen" "^0.0.6"
     "@types/estree" "^0.0.51"
     "@types/node" "^16.0.0"
