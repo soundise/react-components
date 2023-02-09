@@ -1966,13 +1966,13 @@
     regenerator-runtime "^0.13.7"
 
 "@storybook/addons@^7.0.0-beta.28":
-  version "7.0.0-beta.43"
-  resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-7.0.0-beta.43.tgz#3a8250a5530b35f2d1dce6c3e89a7e6f23bcf147"
-  integrity sha512-6AcQuSIhEnou/Pf/Vel2MzTFupBdiK1AYTsWDgMdwv9bxZkkkXqPlfaTmi7+wSzh6UxU5lkh4FJbKlIv5Fm6Kg==
+  version "7.0.0-beta.45"
+  resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-7.0.0-beta.45.tgz#09b2f1581118c0af8c125f01f696b4ec29b527a1"
+  integrity sha512-AzFLgG1+MsbiyrAh6SDr1lZJtXBMhxdpYDBJN5yRr1xzt+xqp77dPLW5opaNK5G+4R4+fW0jP+qjG07qR+vJaw==
   dependencies:
-    "@storybook/manager-api" "7.0.0-beta.43"
-    "@storybook/preview-api" "7.0.0-beta.43"
-    "@storybook/types" "7.0.0-beta.43"
+    "@storybook/manager-api" "7.0.0-beta.45"
+    "@storybook/preview-api" "7.0.0-beta.45"
+    "@storybook/types" "7.0.0-beta.45"
 
 "@storybook/api@6.5.15", "@storybook/api@^6.5.15":
   version "6.5.15"
