@@ -1997,7 +1997,7 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/blocks@7.0.0-beta.45":
+"@storybook/blocks@7.0.0-beta.45", "@storybook/blocks@^7.0.0-beta.28":
   version "7.0.0-beta.45"
   resolved "https://registry.yarnpkg.com/@storybook/blocks/-/blocks-7.0.0-beta.45.tgz#f73800532097f5b3474bf197d2e27a56a7ded968"
   integrity sha512-xCFnoPhFZfkTC4kKZNyWHB89TBYX5J4OcpOWf4ehm0c524L8xXOy+sKveoBzs2LdjvMYEr4hmLrhEEv6dedumw==
@@ -2013,33 +2013,6 @@
     "@storybook/preview-api" "7.0.0-beta.45"
     "@storybook/theming" "7.0.0-beta.45"
     "@storybook/types" "7.0.0-beta.45"
-    "@types/lodash" "^4.14.167"
-    color-convert "^2.0.1"
-    dequal "^2.0.2"
-    lodash "^4.17.21"
-    markdown-to-jsx "^7.1.8"
-    memoizerific "^1.11.3"
-    polished "^4.2.2"
-    react-colorful "^5.1.2"
-    ts-dedent "^2.0.0"
-    util-deprecate "^1.0.2"
-
-"@storybook/blocks@^7.0.0-beta.28":
-  version "7.0.0-beta.43"
-  resolved "https://registry.yarnpkg.com/@storybook/blocks/-/blocks-7.0.0-beta.43.tgz#66010980ddc16e916db015ab938e7501c9e507cc"
-  integrity sha512-9HlD3dP3zZea1RGKLRBTL9OlygH5HLaekMEMRj8mtP1yM1ZAFpGN1Yz/TiRDjljOd7iKmBRtbY1t4vYn9tyJJg==
-  dependencies:
-    "@storybook/channels" "7.0.0-beta.43"
-    "@storybook/client-logger" "7.0.0-beta.43"
-    "@storybook/components" "7.0.0-beta.43"
-    "@storybook/core-events" "7.0.0-beta.43"
-    "@storybook/csf" next
-    "@storybook/docs-tools" "7.0.0-beta.43"
-    "@storybook/global" "^5.0.0"
-    "@storybook/manager-api" "7.0.0-beta.43"
-    "@storybook/preview-api" "7.0.0-beta.43"
-    "@storybook/theming" "7.0.0-beta.43"
-    "@storybook/types" "7.0.0-beta.43"
     "@types/lodash" "^4.14.167"
     color-convert "^2.0.1"
     dequal "^2.0.2"
@@ -2283,20 +2256,6 @@
     recast "^0.23.1"
     util "^0.12.4"
 
-"@storybook/components@7.0.0-beta.43":
-  version "7.0.0-beta.43"
-  resolved "https://registry.yarnpkg.com/@storybook/components/-/components-7.0.0-beta.43.tgz#109fe7a3e88ed6d5ffdce74a70d4ed9447a53fad"
-  integrity sha512-jZWwCUvJFSubm+D/HWBDCACCp5ezMcvNM1EMLML1YVON+8QAbHpD2LzJK9nh4iHN8dy8cvT81ucfP+Gtm1kGqA==
-  dependencies:
-    "@storybook/client-logger" "7.0.0-beta.43"
-    "@storybook/csf" next
-    "@storybook/global" "^5.0.0"
-    "@storybook/theming" "7.0.0-beta.43"
-    "@storybook/types" "7.0.0-beta.43"
-    memoizerific "^1.11.3"
-    use-resize-observer "^9.1.0"
-    util-deprecate "^1.0.2"
-
 "@storybook/components@7.0.0-beta.45":
   version "7.0.0-beta.45"
   resolved "https://registry.yarnpkg.com/@storybook/components/-/components-7.0.0-beta.45.tgz#d70d120c93e984b2587c1c727bff17d90c27d949"
@@ -2340,37 +2299,6 @@
   dependencies:
     "@storybook/client-logger" "7.0.0-beta.45"
     "@storybook/preview-api" "7.0.0-beta.45"
-
-"@storybook/core-common@7.0.0-beta.43":
-  version "7.0.0-beta.43"
-  resolved "https://registry.yarnpkg.com/@storybook/core-common/-/core-common-7.0.0-beta.43.tgz#ee254c7349ca52462e282d79ad224cab5623d5fb"
-  integrity sha512-6kNUHgK8h2N8yI4eLMupuXNH8XWxddkd3vl8FDxptSSqgi4HVuyiY8BsraCK9gUYE+fN6bk5p1LaYOSHL9CYlw==
-  dependencies:
-    "@babel/core" "^7.20.2"
-    "@storybook/csf-tools" "7.0.0-beta.43"
-    "@storybook/node-logger" "7.0.0-beta.43"
-    "@storybook/types" "7.0.0-beta.43"
-    "@types/babel__core" "^7.1.20"
-    "@types/express" "^4.7.0"
-    "@types/node" "^16.0.0"
-    "@types/pretty-hrtime" "^1.0.0"
-    chalk "^4.1.0"
-    esbuild "^0.16.4"
-    esbuild-register "^3.3.3"
-    express "^4.17.3"
-    file-system-cache "^2.0.0"
-    find-up "^5.0.0"
-    fs-extra "^11.1.0"
-    glob "^8.1.0"
-    glob-promise "^4.2.0"
-    handlebars "^4.7.7"
-    lazy-universal-dotenv "^4.0.0"
-    picomatch "^2.3.0"
-    pkg-dir "^5.0.0"
-    pretty-hrtime "^1.0.3"
-    resolve-from "^5.0.0"
-    slash "^3.0.0"
-    ts-dedent "^2.0.0"
 
 "@storybook/core-common@7.0.0-beta.44":
   version "7.0.0-beta.44"
@@ -2524,18 +2452,6 @@
     "@storybook/csf-tools" "7.0.0-beta.45"
     unplugin "^0.10.2"
 
-"@storybook/csf-tools@7.0.0-beta.43":
-  version "7.0.0-beta.43"
-  resolved "https://registry.yarnpkg.com/@storybook/csf-tools/-/csf-tools-7.0.0-beta.43.tgz#d6831d4f92bfd2fb8f9e54b07d10f0e7df868f75"
-  integrity sha512-/KbLRdE36FwbpRB0HYE5BHbDbGKnkVhTqgHvVO9E+NgIGX811EOp1GVeyhrSl+oj7m73MQIqR1al0OcMd4IE8A==
-  dependencies:
-    "@babel/types" "^7.20.2"
-    "@storybook/csf" next
-    "@storybook/types" "7.0.0-beta.43"
-    fs-extra "^11.1.0"
-    recast "^0.23.1"
-    ts-dedent "^2.0.0"
-
 "@storybook/csf-tools@7.0.0-beta.44":
   version "7.0.0-beta.44"
   resolved "https://registry.yarnpkg.com/@storybook/csf-tools/-/csf-tools-7.0.0-beta.44.tgz#c5536258947ae118d787085eef047bce244553fe"
@@ -2587,19 +2503,6 @@
   version "0.0.1-next.6"
   resolved "https://registry.yarnpkg.com/@storybook/docs-mdx/-/docs-mdx-0.0.1-next.6.tgz#8fa2d0e30e7487101e7e286e593323b1ce750699"
   integrity sha512-DjoSIXADmLJtdroXAjUotFiZlcZ2usWhqrS7aeOtZs0DVR0Ws5WQjnwtpDUXt8gryTSd+OZJ0cNsDcqg4JDEvQ==
-
-"@storybook/docs-tools@7.0.0-beta.43":
-  version "7.0.0-beta.43"
-  resolved "https://registry.yarnpkg.com/@storybook/docs-tools/-/docs-tools-7.0.0-beta.43.tgz#d5516f7f1501f730f4aa3d662577835fdbe8bd22"
-  integrity sha512-v7hjvqP+dkxW9cTUZgBQMMoNOFBL40GULckIlBs0RqqXjYpj/AmBEZGFlICH1FiaIrm++oR7PvBJJ2tscK3VWQ==
-  dependencies:
-    "@babel/core" "^7.12.10"
-    "@storybook/core-common" "7.0.0-beta.43"
-    "@storybook/preview-api" "7.0.0-beta.43"
-    "@storybook/types" "7.0.0-beta.43"
-    "@types/doctrine" "^0.0.3"
-    doctrine "^3.0.0"
-    lodash "^4.17.21"
 
 "@storybook/docs-tools@7.0.0-beta.44":
   version "7.0.0-beta.44"
@@ -2706,16 +2609,6 @@
   version "1.0.0-next.5"
   resolved "https://registry.yarnpkg.com/@storybook/mdx2-csf/-/mdx2-csf-1.0.0-next.5.tgz#b43b403b3a0b2ebdb3603bf6d20d7319b407e199"
   integrity sha512-02w0sgGZaK1agT050yCVhJ+o4rLHANWvLKWjQjeAsYbjneLC5ITt+3GDB4jRiWwJboZ8dHW1fGSK1Vg5fA34aQ==
-
-"@storybook/node-logger@7.0.0-beta.43":
-  version "7.0.0-beta.43"
-  resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-7.0.0-beta.43.tgz#0c76e7f38b0d13aa0805bd05661b50f31a7e14d5"
-  integrity sha512-/DYIT/EUYSOFwUQErGVSO7yVtcB5s/us8/bNMeps+EzbLLNZHaFnuvNml8I8c6Ghb4A6Jc+uJmz7df6qqh6cWw==
-  dependencies:
-    "@types/npmlog" "^4.1.2"
-    chalk "^4.1.0"
-    npmlog "^5.0.1"
-    pretty-hrtime "^1.0.3"
 
 "@storybook/node-logger@7.0.0-beta.44":
   version "7.0.0-beta.44"
