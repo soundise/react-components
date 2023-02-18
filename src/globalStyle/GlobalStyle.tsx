@@ -59,6 +59,10 @@ export const GlobalStyle = createGlobalStyle`
     user-select: none;
   }
 
+  svg {
+    font-size: inherit;
+  }
+
   input, button, textarea, select {
     font: inherit;
   }
