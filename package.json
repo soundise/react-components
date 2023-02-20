@@ -1,6 +1,7 @@
 {
   "name": "@soundise/react-components",
   "version": "2.0.2",
+  "private": false,
   "license": "GPL-3.0-only",
   "description": "Soundise React component library",
   "homepage": "https://storybook.soundise.com",
@@ -48,11 +49,17 @@
     "prepare": "husky install"
   },
   "peerDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "styled-components": "^6.0.0-beta.9"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@storybook/addon-a11y": "^7.0.0-beta.28",
     "@storybook/addon-docs": "^7.0.0-beta.28",
     "@storybook/addon-essentials": "^7.0.0-beta.28",

@@ -7,7 +7,7 @@ import { darkTheme } from '../theme';
 afterEach(cleanup);
 
 describe('SoundiseAppIcon', () => {
-  it('should render the Soundise app icon as an SVG', () => {
+  it('should render Soundise app icon as an SVG', () => {
     const { getByTestId } = render(<SoundiseAppIcon />);
     const soundiseAppIcon = getByTestId('soundise-app-icon');
 
