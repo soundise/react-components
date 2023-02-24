@@ -1,10 +1,8 @@
 import React from 'react';
-import { render, cleanup } from 'tests';
+import { render } from 'tests';
 import 'jest-styled-components';
 import { SoundiseIcon } from './SoundiseIcon';
 import { darkTheme } from '../theme';
-
-afterEach(cleanup);
 
 describe('SoundiseIcon', () => {
   it('should render Soundise icon as an SVG', () => {

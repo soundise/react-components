@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
 
-exports[`SoundiseAppIcon should match primary Soundise app icon snapshot 1`] = `
+exports[`SoundiseAppIcon > should match primary Soundise app icon snapshot 1`] = `
 .c0 {
   fill: #000000;
 }
@@ -43,7 +43,7 @@ exports[`SoundiseAppIcon should match primary Soundise app icon snapshot 1`] = `
 </svg>
 `;
 
-exports[`SoundiseAppIcon should match secondary Soundise app icon snapshot 1`] = `
+exports[`SoundiseAppIcon > should match secondary Soundise app icon snapshot 1`] = `
 .c0 {
   fill: #000000;
   fill: #FFFFFF;

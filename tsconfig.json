@@ -23,6 +23,6 @@
     },
     "typeRoots": ["node_modules/@types", "src/index.d.ts"]
   },
-  "include": ["src", "tests"],
+  "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

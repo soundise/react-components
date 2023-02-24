@@ -1,10 +1,8 @@
 import React from 'react';
-import { render, cleanup } from 'tests';
+import { render } from 'tests';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleExclamation } from '@fortawesome/free-solid-svg-icons';
 import { HttpError } from './HttpError';
-
-afterEach(cleanup);
 
 describe('HttpError', () => {
   it('should render Http Error', () => {

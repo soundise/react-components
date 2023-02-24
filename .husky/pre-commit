@@ -14,9 +14,9 @@ yarn check-types ||
 # Check ESLint Standards
 yarn check-lint ||
 (
-        echo '\n😤🏀 ESLint check failed.
-                Make the required changes listed above, add changes and try to commit again.'
-        false;
+    echo '\n😤🏀 ESLint check failed.
+            Make the required changes listed above, add changes and try to commit again.'
+    false;
 )
 
 # Check Prettier standards
@@ -30,9 +30,9 @@ yarn check-format ||
 # Run tests
 yarn test ||
 (
-        echo '\n😭🧪 Tests failed.
-                Make the required changes to pass the tests, add changes and try to commit again.'
-        false;
+    echo '\n😭🧪 Tests failed.
+            Make the required changes to pass the tests, add changes and try to commit again.'
+    false;
 )
 
 # If everything passes... Now we can commit

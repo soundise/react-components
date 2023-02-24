@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
 
-exports[`SoundiseLogo should match primary Soundise logo snapshot 1`] = `
+exports[`SoundiseLogo > should match primary Soundise logo snapshot 1`] = `
 .c0 {
   fill: #FFFFFF;
 }
@@ -37,7 +37,7 @@ exports[`SoundiseLogo should match primary Soundise logo snapshot 1`] = `
 </svg>
 `;
 
-exports[`SoundiseLogo should match secondary Soundise logo snapshot 1`] = `
+exports[`SoundiseLogo > should match secondary Soundise logo snapshot 1`] = `
 .c0 {
   fill: #FFFFFF;
   fill: #000000;

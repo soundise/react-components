@@ -1,12 +1,13 @@
 {
   "env": {
     "browser": true,
-    "es2021": true
+    "es2021": true,
+    "jest": true
   },
   "extends": [
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:jest/recommended",
+    "plugin:vitest/recommended",
     "plugin:storybook/recommended",
     "airbnb",
     "prettier"
@@ -19,7 +20,10 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["react", "@typescript-eslint", "jest", "storybook"],
+  "plugins": ["react", "@typescript-eslint", "vitest", "storybook"],
+  "settings": {
+    "import/core-modules": ["vitest"]
+  },
   "rules": {
     "@typescript-eslint/no-non-null-assertion": "off",
     "@typescript-eslint/no-empty-interface": [
