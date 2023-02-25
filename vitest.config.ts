@@ -9,6 +9,7 @@ export default defineConfig({
     clearMocks: true,
     setupFiles: 'tests/setup.ts',
     coverage: {
+      enabled: true,
       reporter: ['text', 'json', 'html'],
       include: ['src/**/*.{ts,tsx}'],
       exclude: [
@@ -23,6 +24,9 @@ export default defineConfig({
       functions: 90,
       branches: 90,
       statements: 90,
+    },
+    deps: {
+      external: ['**/node_modules/**', '**/dist/**', '**/storybook-static/**'],
     },
   },
 });

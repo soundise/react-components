@@ -40,7 +40,7 @@
     "dev": "storybook dev -p 3000",
     "build": "tsc && vite build",
     "build-storybook": "storybook build",
-    "test": "vitest run --coverage",
+    "test": "vitest",
     "test-update": "vitest -u",
     "check-types": "tsc --pretty --noEmit",
     "check-lint": "eslint . --ext ts --ext tsx --ext js",
