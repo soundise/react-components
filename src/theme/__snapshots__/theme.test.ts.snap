@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
 
-exports[`Theme should match dark theme snapshot 1`] = `
+exports[`Theme > should match dark theme snapshot 1`] = `
 {
   "breakpoints": {
     "desktopLarge": "1440px",
@@ -96,10 +96,10 @@ exports[`Theme should match dark theme snapshot 1`] = `
   "typography": {
     "fonts": {
       "code": {
-        "fallback": "ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace",
+        "fallback": "ui-monospace, Menlo, Monaco, \\"Cascadia Mono\\", \\"Segoe UI Mono\\", \\"Roboto Mono\\", \\"Oxygen Mono\\", \\"Ubuntu Monospace\\", \\"Source Code Pro\\", \\"Fira Mono\\", \\"Droid Sans Mono\\", \\"Courier New\\", monospace",
         "primary": "JetBrains Mono",
       },
-      "fallback": "system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif",
+      "fallback": "system-ui, -apple-system, BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
       "primary": "Inter",
     },
     "weights": {
@@ -111,7 +111,7 @@ exports[`Theme should match dark theme snapshot 1`] = `
 }
 `;
 
-exports[`Theme should match light theme snapshot 1`] = `
+exports[`Theme > should match light theme snapshot 1`] = `
 {
   "breakpoints": {
     "desktopLarge": "1440px",
@@ -207,10 +207,10 @@ exports[`Theme should match light theme snapshot 1`] = `
   "typography": {
     "fonts": {
       "code": {
-        "fallback": "ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace",
+        "fallback": "ui-monospace, Menlo, Monaco, \\"Cascadia Mono\\", \\"Segoe UI Mono\\", \\"Roboto Mono\\", \\"Oxygen Mono\\", \\"Ubuntu Monospace\\", \\"Source Code Pro\\", \\"Fira Mono\\", \\"Droid Sans Mono\\", \\"Courier New\\", monospace",
         "primary": "JetBrains Mono",
       },
-      "fallback": "system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif",
+      "fallback": "system-ui, -apple-system, BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
       "primary": "Inter",
     },
     "weights": {

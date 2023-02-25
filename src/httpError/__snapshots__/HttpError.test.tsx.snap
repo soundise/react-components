@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
 
-exports[`HttpError should match Http Error snapshot 1`] = `
+exports[`HttpError > should match Http Error snapshot 1`] = `
 <div
   class="sc-jBWDzJ liYPJr"
   data-testid="http-error"
