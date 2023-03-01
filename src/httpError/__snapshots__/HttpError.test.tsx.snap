@@ -1,12 +1,12 @@
-// Vitest Snapshot v1
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`HttpError > should match Http Error snapshot 1`] = `
 <div
-  class="sc-jBWDzJ liYPJr"
+  class="sc-lgXlBy clAvAz"
   data-testid="http-error"
 >
   <div
-    class="sc-fUrKbW kOtzfG"
+    class="sc-dGNxCh iWtsaw"
   >
     <svg
       aria-hidden="true"
@@ -25,15 +25,15 @@ exports[`HttpError > should match Http Error snapshot 1`] = `
     </svg>
   </div>
   <div
-    class="sc-fWHPSf jTzVnJ"
+    class="sc-cucBfs uOgJU"
   >
     <h1
-      class="sc-esxusc gEhdBT"
+      class="sc-hmzeGP hyNRNa"
     >
       Something went wrong!
     </h1>
     <p
-      class="sc-euNAil bcqknK"
+      class="sc-fZOika CGCab"
     >
       We're so sorry. We're not sure what happened. Please try again later!
     </p>
