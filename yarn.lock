@@ -2205,13 +2205,13 @@
     "@storybook/client-logger" "7.0.0-beta.44"
     "@storybook/preview-api" "7.0.0-beta.44"
 
-"@storybook/core-client@7.0.0-beta.45":
-  version "7.0.0-beta.45"
-  resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.0.0-beta.45.tgz#1e2be3f998e8b89a6f8b182337001fc0cd7eeac1"
-  integrity sha512-KojSCerPbKrX/rq7I0G2RqiKRID8IDyp+HRGjvp1a/iGNT7j5fB+wLXC8MuJPwFXImI3XSxhhbXW8BDu83H0uQ==
+"@storybook/core-client@7.0.0-beta.59":
+  version "7.0.0-beta.59"
+  resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.0.0-beta.59.tgz#c0ab8825e30a90fb768978b5fa8ae4233bc2fc04"
+  integrity sha512-M/APRzOEyhjkhVXLHVs3lMkNI+MC11PF6Z2M8hXSlv+xqHSnC2bHGwoay5KSjLY29yEZkxuauCYwvOywzTdJQw==
   dependencies:
-    "@storybook/client-logger" "7.0.0-beta.45"
-    "@storybook/preview-api" "7.0.0-beta.45"
+    "@storybook/client-logger" "7.0.0-beta.59"
+    "@storybook/preview-api" "7.0.0-beta.59"
 
 "@storybook/core-common@7.0.0-beta.44":
   version "7.0.0-beta.44"
@@ -2484,6 +2484,19 @@
     doctrine "^3.0.0"
     lodash "^4.17.21"
 
+"@storybook/docs-tools@7.0.0-beta.59":
+  version "7.0.0-beta.59"
+  resolved "https://registry.yarnpkg.com/@storybook/docs-tools/-/docs-tools-7.0.0-beta.59.tgz#c8049e5a2e7f8c6500eb9fcfdcff3d3f0e09c904"
+  integrity sha512-UatE0EFvPy2dsSa7zqcsQ5mUmGopKE+/2RyQkCE+tTqY38KssyOuHSrg0mc6dUvBZngD3AWKIOuNZlLB1Eg21w==
+  dependencies:
+    "@babel/core" "^7.12.10"
+    "@storybook/core-common" "7.0.0-beta.59"
+    "@storybook/preview-api" "7.0.0-beta.59"
+    "@storybook/types" "7.0.0-beta.59"
+    "@types/doctrine" "^0.0.3"
+    doctrine "^3.0.0"
+    lodash "^4.17.21"
+
 "@storybook/global@^5.0.0":
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/@storybook/global/-/global-5.0.0.tgz#b793d34b94f572c1d7d9e0f44fac4e0dbc9572ed"
@@ -2671,6 +2684,11 @@
   resolved "https://registry.yarnpkg.com/@storybook/preview/-/preview-7.0.0-beta.44.tgz#0a97a70e61a69fb3ef2858841f7568d8757cd57b"
   integrity sha512-XMhnWZnXbkggp8kIAjt2Z8f8dE16YbIFwbvNWn73KqK7jFJtCdsNFy+yce+yRe8M+HwyoD6Be5XbUDN4yI7HzQ==
 
+"@storybook/react-dom-shim@7.0.0-beta.59":
+  version "7.0.0-beta.59"
+  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-7.0.0-beta.59.tgz#15133d3dd71b1f7ca0df593ebc7b6402d5b35acb"
+  integrity sha512-YI8DiC7kMutDx2H8q/jVNotjTAv/W74a9LzYlPwn67yWnyj4rVNFfCTCsd/ji5rLDe3SZZc/b3sN7TOumCdBQQ==
+
 "@storybook/react-vite@^7.0.0-beta.28":
   version "7.0.0-beta.44"
   resolved "https://registry.yarnpkg.com/@storybook/react-vite/-/react-vite-7.0.0-beta.44.tgz#f11a00a8a5361387ca4cbc815477032ebefa53f9"
@@ -2712,16 +2730,17 @@
     util-deprecate "^1.0.2"
 
 "@storybook/react@^7.0.0-beta.28":
-  version "7.0.0-beta.45"
-  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-7.0.0-beta.45.tgz#e39c925f770e190ace6a793b1b8b122355901515"
-  integrity sha512-Z2ShzXat5dQM2nGVezcnGZumf/3mC8kyfCZ+4ss5kZRWH3Lsl+GKfQQKzONyP9ebnxPEvz6dQLYoLOCO9JlPEg==
+  version "7.0.0-beta.59"
+  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-7.0.0-beta.59.tgz#5d673b7b080070e99dfb927bab40426ae420ff8b"
+  integrity sha512-6GTarU04IIUt3zrOdCdSR6dPgY1yetiwAuYsqpC8l6nVRyWft9Cv3uU5gTTX/9AHSmydte3w+BhMWEecJzLnWA==
   dependencies:
-    "@storybook/client-logger" "7.0.0-beta.45"
-    "@storybook/core-client" "7.0.0-beta.45"
-    "@storybook/docs-tools" "7.0.0-beta.45"
+    "@storybook/client-logger" "7.0.0-beta.59"
+    "@storybook/core-client" "7.0.0-beta.59"
+    "@storybook/docs-tools" "7.0.0-beta.59"
     "@storybook/global" "^5.0.0"
-    "@storybook/preview-api" "7.0.0-beta.45"
-    "@storybook/types" "7.0.0-beta.45"
+    "@storybook/preview-api" "7.0.0-beta.59"
+    "@storybook/react-dom-shim" "7.0.0-beta.59"
+    "@storybook/types" "7.0.0-beta.59"
     "@types/escodegen" "^0.0.6"
     "@types/estree" "^0.0.51"
     "@types/node" "^16.0.0"
@@ -3479,15 +3498,10 @@ acorn@^7.4.1:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.4.1.tgz#feaed255973d2e77555b83dbc08851a6c63520fa"
   integrity sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==
 
-acorn@^8.1.0, acorn@^8.8.1, acorn@^8.8.2:
+acorn@^8.1.0, acorn@^8.8.0, acorn@^8.8.1, acorn@^8.8.2:
   version "8.8.2"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.8.2.tgz#1b2f25db02af965399b9776b0c2c391276d37c4a"
   integrity sha512-xjIYgE8HBrkpd/sJqOGNspf8uHG+NOHGOw6a/Urj8taM2EXfdNAH2oFcPeIFfsv3+kz/mJrS5VuMqbNLjCa2vw==
-
-acorn@^8.8.0:
-  version "8.8.1"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.8.1.tgz#0a3f9cbecc4ec3bea6f0a80b66ae8dd2da250b73"
-  integrity sha512-7zFpHzhnqYKrkYdUjF1HI1bzd0VygEGX8lFk4k5zVMqHEoES+P+7TKI+EvLO9WVMJ8eekdO0aDEK044xTXwPPA==
 
 address@^1.0.1:
   version "1.2.2"
