@@ -89,7 +89,7 @@
     "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-storybook": "^0.6.10",
-    "eslint-plugin-vitest": "^0.0.53",
+    "eslint-plugin-vitest": "^0.0.54",
     "husky": "^8.0.2",
     "jest-styled-components": "^7.1.1",
     "jsdom": "^21.1.0",
