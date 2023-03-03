@@ -91,7 +91,6 @@
     "eslint-plugin-storybook": "^0.6.10",
     "eslint-plugin-vitest": "^0.0.54",
     "husky": "^8.0.2",
-    "jest-styled-components": "^7.1.1",
     "jsdom": "^21.1.0",
     "prettier": "^2.8.1",
     "prop-types": "^15.8.1",
