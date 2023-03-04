@@ -18,10 +18,7 @@ Visit [storybook.soundise.com](https://storybook.soundise.com) to check out avai
 ## Installation
 
 ```bash
-yarn add styled-components
-
-# TypeScript
-yarn add -D @types/styled-components
+yarn add styled-components@beta
 
 yarn add @soundise/react-components
 ```
