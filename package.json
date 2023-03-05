@@ -1,6 +1,6 @@
 {
   "name": "@soundise/react-components",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "private": false,
   "license": "GPL-3.0-only",
   "description": "Soundise React component library",
