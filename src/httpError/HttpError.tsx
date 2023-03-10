@@ -49,7 +49,7 @@ const Message = styled.div`
 `;
 
 const Title = styled.h1`
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   text-align: center;
 `;
